@@ -1,0 +1,29 @@
+{"time":"2025-04-15T12:40:31.006805728-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"wandb/run-20250415_124030-hxbsvp3c/logs/debug-core.log"}
+{"time":"2025-04-15T12:40:31.115632688-04:00","level":"INFO","msg":"created new stream","id":"hxbsvp3c"}
+{"time":"2025-04-15T12:40:31.115666749-04:00","level":"INFO","msg":"stream: started","id":"hxbsvp3c"}
+{"time":"2025-04-15T12:40:31.115721885-04:00","level":"INFO","msg":"handler: started","stream_id":"hxbsvp3c"}
+{"time":"2025-04-15T12:40:31.115740098-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"hxbsvp3c"}
+{"time":"2025-04-15T12:40:31.115847472-04:00","level":"INFO","msg":"sender: started","stream_id":"hxbsvp3c"}
+{"time":"2025-04-15T12:40:31.421827372-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-15T12:40:32.483240614-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-15T12:40:50.744536962-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-15T12:41:38.51746888-04:00","level":"WARN","msg":"handler: ignoring partial history record","step":0,"current":8}
+{"time":"2025-04-15T12:42:25.864419021-04:00","level":"WARN","msg":"handler: ignoring partial history record","step":1,"current":18}
+{"time":"2025-04-15T12:43:12.900420154-04:00","level":"WARN","msg":"handler: ignoring partial history record","step":2,"current":28}
+{"time":"2025-04-15T12:43:59.909424906-04:00","level":"WARN","msg":"handler: ignoring partial history record","step":3,"current":38}
+{"time":"2025-04-15T12:44:46.895422488-04:00","level":"WARN","msg":"handler: ignoring partial history record","step":4,"current":49}
+{"time":"2025-04-15T12:45:34.05842149-04:00","level":"WARN","msg":"handler: ignoring partial history record","step":5,"current":59}
+{"time":"2025-04-15T12:46:04.295905159-04:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-04-15T12:46:21.420424473-04:00","level":"WARN","msg":"handler: ignoring partial history record","step":6,"current":69}
+{"time":"2025-04-15T12:47:08.656973212-04:00","level":"WARN","msg":"handler: ignoring partial history record","step":7,"current":79}
+{"time":"2025-04-15T12:47:55.944052266-04:00","level":"WARN","msg":"handler: ignoring partial history record","step":8,"current":89}
+{"time":"2025-04-15T12:48:42.893568086-04:00","level":"WARN","msg":"handler: ignoring partial history record","step":9,"current":100}
+{"time":"2025-04-15T12:48:42.906850861-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-15T12:48:42.907590362-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-15T12:48:43.883788557-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-15T12:48:43.909274669-04:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 98-101, summary, console lines 117-117","runtime_seconds":0.025369677}],"total_operations":1}}
+{"time":"2025-04-15T12:48:44.012808121-04:00","level":"INFO","msg":"stream: closing","id":"hxbsvp3c"}
+{"time":"2025-04-15T12:48:44.012827356-04:00","level":"INFO","msg":"handler: closed","stream_id":"hxbsvp3c"}
+{"time":"2025-04-15T12:48:44.012838083-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"hxbsvp3c"}
+{"time":"2025-04-15T12:48:44.012991173-04:00","level":"INFO","msg":"sender: closed","stream_id":"hxbsvp3c"}
+{"time":"2025-04-15T12:48:44.013047571-04:00","level":"INFO","msg":"stream: closed","id":"hxbsvp3c"}

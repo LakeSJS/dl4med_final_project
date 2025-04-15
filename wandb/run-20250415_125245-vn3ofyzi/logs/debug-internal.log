@@ -1,0 +1,21 @@
+{"time":"2025-04-15T12:52:45.843827851-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"wandb/run-20250415_125245-vn3ofyzi/logs/debug-core.log"}
+{"time":"2025-04-15T12:52:45.954184038-04:00","level":"INFO","msg":"created new stream","id":"vn3ofyzi"}
+{"time":"2025-04-15T12:52:45.954223013-04:00","level":"INFO","msg":"stream: started","id":"vn3ofyzi"}
+{"time":"2025-04-15T12:52:45.954277186-04:00","level":"INFO","msg":"handler: started","stream_id":"vn3ofyzi"}
+{"time":"2025-04-15T12:52:45.954297202-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"vn3ofyzi"}
+{"time":"2025-04-15T12:52:45.954417837-04:00","level":"INFO","msg":"sender: started","stream_id":"vn3ofyzi"}
+{"time":"2025-04-15T12:52:46.344181316-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-15T12:53:36.200434145-04:00","level":"WARN","msg":"handler: ignoring partial history record","step":0,"current":8}
+{"time":"2025-04-15T12:54:23.382490263-04:00","level":"WARN","msg":"handler: ignoring partial history record","step":1,"current":18}
+{"time":"2025-04-15T12:55:10.275890301-04:00","level":"WARN","msg":"handler: ignoring partial history record","step":2,"current":28}
+{"time":"2025-04-15T12:55:57.194435889-04:00","level":"WARN","msg":"handler: ignoring partial history record","step":3,"current":38}
+{"time":"2025-04-15T12:56:44.128224734-04:00","level":"WARN","msg":"handler: ignoring partial history record","step":4,"current":49}
+{"time":"2025-04-15T12:56:44.131985251-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-15T12:56:44.13262984-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-15T12:56:45.134584818-04:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-vn3ofyzi-PredictedLabelDistribution_table","runtime_seconds":1.015369122}],"total_operations":1}}
+{"time":"2025-04-15T12:56:45.394288394-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-15T12:56:45.690933602-04:00","level":"INFO","msg":"stream: closing","id":"vn3ofyzi"}
+{"time":"2025-04-15T12:56:45.690952989-04:00","level":"INFO","msg":"handler: closed","stream_id":"vn3ofyzi"}
+{"time":"2025-04-15T12:56:45.690971976-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vn3ofyzi"}
+{"time":"2025-04-15T12:56:45.694552909-04:00","level":"INFO","msg":"sender: closed","stream_id":"vn3ofyzi"}
+{"time":"2025-04-15T12:56:45.6946876-04:00","level":"INFO","msg":"stream: closed","id":"vn3ofyzi"}

@@ -1,0 +1,19 @@
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name              | Type                 | Params | Mode
+-------------------------------------------------------------------
+0 | feature_extractor | FeatureExtractorCNN  | 35.0 K | train
+1 | lstm_model        | SleepStageLSTM       | 15.0 K | train
+2 | criterion         | CrossEntropyLoss     | 0      | train
+3 | kappa             | MulticlassCohenKappa | 0      | train
+-------------------------------------------------------------------
+50.0 K    Trainable params
+0         Non-trainable params
+50.0 K    Total params
+0.200     Total estimated model params size (MB)
+15        Modules in train mode
+0         Modules in eval mode
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 0 that is less than the current step 8. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 1 that is less than the current step 18. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 2 that is less than the current step 28. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 3 that is less than the current step 38. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
