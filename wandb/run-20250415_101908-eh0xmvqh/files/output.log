@@ -1,0 +1,15 @@
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name              | Type                | Params | Mode
+------------------------------------------------------------------
+0 | feature_extractor | FeatureExtractorCNN | 33.1 K | train
+1 | lstm_model        | SleepStageLSTM      | 52.5 K | train
+2 | criterion         | CrossEntropyLoss    | 0      | train
+------------------------------------------------------------------
+85.6 K    Trainable params
+0         Non-trainable params
+85.6 K    Total params
+0.343     Total estimated model params size (MB)
+14        Modules in train mode
+0         Modules in eval mode
+`Trainer.fit` stopped: `max_epochs=10` reached.
