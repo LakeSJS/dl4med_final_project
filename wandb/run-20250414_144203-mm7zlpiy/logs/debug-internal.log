@@ -1,0 +1,22 @@
+{"time":"2025-04-14T14:42:03.957300127-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"wandb/run-20250414_144203-mm7zlpiy/logs/debug-core.log"}
+{"time":"2025-04-14T14:42:04.094459471-04:00","level":"INFO","msg":"created new stream","id":"mm7zlpiy"}
+{"time":"2025-04-14T14:42:04.094516532-04:00","level":"INFO","msg":"stream: started","id":"mm7zlpiy"}
+{"time":"2025-04-14T14:42:04.096653068-04:00","level":"INFO","msg":"handler: started","stream_id":"mm7zlpiy"}
+{"time":"2025-04-14T14:42:04.096740111-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"mm7zlpiy"}
+{"time":"2025-04-14T14:42:04.097767293-04:00","level":"INFO","msg":"sender: started","stream_id":"mm7zlpiy"}
+{"time":"2025-04-14T14:42:04.345954953-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-14T14:48:47.516346331-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T14:48:47.556461219-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T14:48:47.556489512-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T14:48:47.556495625-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T14:48:47.556501039-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T14:48:53.55820001-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T14:48:53.609307138-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-14T14:48:53.609815418-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-14T14:48:54.017646606-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-14T14:48:54.109154584-04:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-04-14T14:48:54.142123223-04:00","level":"INFO","msg":"stream: closing","id":"mm7zlpiy"}
+{"time":"2025-04-14T14:48:54.142135146-04:00","level":"INFO","msg":"handler: closed","stream_id":"mm7zlpiy"}
+{"time":"2025-04-14T14:48:54.142142733-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"mm7zlpiy"}
+{"time":"2025-04-14T14:48:54.142298454-04:00","level":"INFO","msg":"sender: closed","stream_id":"mm7zlpiy"}
+{"time":"2025-04-14T14:48:54.142307128-04:00","level":"INFO","msg":"stream: closed","id":"mm7zlpiy"}

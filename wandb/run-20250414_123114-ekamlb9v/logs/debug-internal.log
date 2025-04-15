@@ -1,0 +1,44 @@
+{"time":"2025-04-14T12:31:14.08362422-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"wandb/run-20250414_123114-ekamlb9v/logs/debug-core.log"}
+{"time":"2025-04-14T12:31:14.191859427-04:00","level":"INFO","msg":"created new stream","id":"ekamlb9v"}
+{"time":"2025-04-14T12:31:14.191898556-04:00","level":"INFO","msg":"stream: started","id":"ekamlb9v"}
+{"time":"2025-04-14T12:31:14.192359057-04:00","level":"INFO","msg":"handler: started","stream_id":"ekamlb9v"}
+{"time":"2025-04-14T12:31:14.192386988-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"ekamlb9v"}
+{"time":"2025-04-14T12:31:14.19251122-04:00","level":"INFO","msg":"sender: started","stream_id":"ekamlb9v"}
+{"time":"2025-04-14T12:31:14.527160211-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-14T12:31:16.963845423-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T12:31:37.708899025-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T12:31:37.747521581-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T12:32:01.822579988-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T12:32:01.822617277-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T12:34:13.606186557-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T12:34:13.645536528-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T12:34:16.041119767-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T12:34:16.04375127-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T12:34:28.521643318-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T12:34:28.560528488-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T12:35:00.400320554-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T12:35:00.438555945-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T12:35:50.963762705-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T12:35:51.001513506-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T12:36:12.139548358-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T12:36:12.177545636-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T12:36:15.712649354-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T12:36:16.76319948-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T12:36:51.650297615-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T12:36:51.686530988-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T12:36:54.679483012-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T12:36:55.431820456-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T12:37:02.069805128-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T12:37:02.07252257-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T12:37:16.767090142-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T12:37:16.804537327-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T12:37:18.730355396-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T12:37:25.363177048-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-14T12:37:25.364069296-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-14T12:37:25.713165725-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-14T12:37:25.818672792-04:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-04-14T12:37:25.826265851-04:00","level":"INFO","msg":"stream: closing","id":"ekamlb9v"}
+{"time":"2025-04-14T12:37:25.826285137-04:00","level":"INFO","msg":"handler: closed","stream_id":"ekamlb9v"}
+{"time":"2025-04-14T12:37:25.826382952-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ekamlb9v"}
+{"time":"2025-04-14T12:37:25.826507321-04:00","level":"INFO","msg":"sender: closed","stream_id":"ekamlb9v"}
+{"time":"2025-04-14T12:37:25.827940543-04:00","level":"INFO","msg":"stream: closed","id":"ekamlb9v"}
