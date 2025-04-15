@@ -1,0 +1,19 @@
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name      | Type             | Params | Mode
+-------------------------------------------------------
+0 | model     | SimpleCNN        | 4.2 K  | train
+1 | criterion | CrossEntropyLoss | 0      | train
+-------------------------------------------------------
+4.2 K     Trainable params
+0         Non-trainable params
+4.2 K     Total params
+0.017     Total estimated model params size (MB)
+8         Modules in train mode
+0         Modules in eval mode
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/utilities/data.py:79: Trying to infer the `batch_size` from an ambiguous collection. The batch size we found is 5. To avoid any miscalculations, use `self.log(..., batch_size=batch_size)`.
+Metric val_loss improved. New best score: 1.345
+
+Detected KeyboardInterrupt, attempting graceful shutdown ...
+EXECUTABLE/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/bin/pythonEXECUTABLE
+EXECUTABLE/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/bin/pythonEXECUTABLE

@@ -1,0 +1,1428 @@
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:654: Checkpoint directory /gpfs/data/oermannlab/users/slj9342/dl4med_25/final_project/checkpoints exists and is not empty.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name              | Type                | Params | Mode
+------------------------------------------------------------------
+0 | feature_extractor | FeatureExtractorCNN | 37.8 K | train
+1 | lstm_model        | SleepStageLSTM      | 58.7 K | train
+2 | criterion         | CrossEntropyLoss    | 0      | train
+------------------------------------------------------------------
+96.5 K    Trainable params
+0         Non-trainable params
+96.5 K    Total params
+0.386     Total estimated model params size (MB)
+14        Modules in train mode
+0         Modules in eval mode
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/loops/fit_loop.py:310: The number of training batches (10) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+Input shape: torch.Size([2493810, 4]) (epoch_samples, channels)
+EXECUTABLE/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/bin/pythonEXECUTABLE
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S087: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S056: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S074: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S048: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S047: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S042: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S024: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S084: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S012: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S002: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S020: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S032: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S077: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S035: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S094: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S006: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S080: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S081: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S014: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S033: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S058: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S092: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S028: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S045: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S073: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S017: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S043: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S100: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S011: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S076: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S013: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S050: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S089: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S030: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S097: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S007: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S070: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S069: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S037: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S018: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S052: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S036: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S009: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S099: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S029: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S021: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S085: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S027: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S066: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S015: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S026: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S005: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S019: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S040: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S010: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S082: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S008: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S068: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S038: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S093: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S059: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S103: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S057: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S046: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S053: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S071: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S049: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S072: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S065: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S101: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S083: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S044: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S062: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S051: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S102: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S061: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S079: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S034: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S098: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S063: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S067: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S088: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S039: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S031: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S003: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S055: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S023: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S004: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S025: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S091: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S095: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S078: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S090: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S086: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S022: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S064: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S075: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S016: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S096: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/3454238401.py:52: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S054: (2493810, 4), Labels shape: (2493810,)
+Total samples in train dataset: 80
+Total samples in val dataset: 10
+Total samples in test dataset: 10
+EXECUTABLE/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/bin/pythonEXECUTABLE
+EXECUTABLE/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/bin/pythonEXECUTABLE
+EXECUTABLE/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/bin/pythonEXECUTABLE
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S087: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S056: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S074: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S048: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S047: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S042: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S024: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S084: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S012: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S002: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S020: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S032: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S077: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S035: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S094: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S006: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S080: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S081: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S014: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S033: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S058: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S092: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S028: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S045: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S073: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S017: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S043: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S100: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S011: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S076: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S013: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S050: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S089: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S030: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S097: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S007: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S070: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S069: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S037: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S018: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S052: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S036: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S009: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S099: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S029: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S021: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S085: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S027: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S066: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S015: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S026: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S005: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S019: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S040: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S010: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S082: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S008: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S068: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S038: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S093: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S059: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S103: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S057: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S046: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S053: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S071: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S049: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S072: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S065: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S101: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S083: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S044: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S062: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S051: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S102: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S061: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S079: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S034: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S098: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S063: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S067: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S088: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S039: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S031: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S003: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S055: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S023: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S004: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S025: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S091: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S095: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S078: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S090: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S086: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S022: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S064: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S075: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S016: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S096: (2493810, 4), Labels shape: (2493810,)
+/tmp/ipykernel_3020464/1844563743.py:60: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_X['ACC'] = ACC
+Data shape for S054: (2493810, 4), Labels shape: (2493810,)
+Total samples in train dataset: 80
+Total samples in val dataset: 10
+Total samples in test dataset: 10
+EXECUTABLE/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/bin/pythonEXECUTABLE
