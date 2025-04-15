@@ -12,3 +12,4 @@ LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
 0.188     Total estimated model params size (MB)
 14        Modules in train mode
 0         Modules in eval mode
+`Trainer.fit` stopped: `max_epochs=10` reached.

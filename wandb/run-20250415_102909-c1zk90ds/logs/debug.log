@@ -18,3 +18,13 @@ config: {'_wandb': {}}
 2025-04-15 10:29:09,931 INFO    MainThread:2671111 [wandb_run.py:_redirect():2315] Redirects installed.
 2025-04-15 10:29:09,931 INFO    MainThread:2671111 [wandb_init.py:init():1032] run started, returning control to user process
 2025-04-15 10:29:09,938 INFO    MainThread:2671111 [wandb_run.py:_config_callback():1261] config_cb None None {'in_channels': 4, 'cnn_output_channels': 8, 'lstm_hidden_size': 32, 'num_layers': 2, 'num_sleep_stages': 5, 'learning_rate': 2.4234329695769596e-05}
+2025-04-15 10:35:00,691 INFO    MainThread:2671111 [wandb_run.py:_finish():2112] finishing run lakej98-nyu-langone-health/optuna_sleep_stage_classification/c1zk90ds
+2025-04-15 10:35:00,693 ERROR   MainThread:2671111 [jupyter.py:save_history():450] Run pip install nbformat to save notebook history
+2025-04-15 10:35:00,693 INFO    MainThread:2671111 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-15 10:35:00,693 INFO    MainThread:2671111 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-04-15 10:35:00,693 INFO    MainThread:2671111 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-04-15 10:35:00,694 INFO    MainThread:2671111 [wandb_run.py:_restore():2322] restore
+2025-04-15 10:35:00,694 INFO    MainThread:2671111 [wandb_run.py:_restore():2328] restore done
+2025-04-15 10:35:01,465 INFO    MainThread:2671111 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-04-15 10:35:01,465 INFO    MainThread:2671111 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-04-15 10:35:01,466 INFO    MainThread:2671111 [wandb_run.py:_footer_sync_info():3917] logging synced files

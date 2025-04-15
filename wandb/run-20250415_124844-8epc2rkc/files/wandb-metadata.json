@@ -1,0 +1,80 @@
+{
+  "os": "Linux-4.18.0-477.27.1.el8_8.x86_64-x86_64-with-glibc2.28",
+  "python": "CPython 3.11.11",
+  "startedAt": "2025-04-15T16:48:44.173592Z",
+  "program": "/gpfs/data/oermannlab/users/slj9342/dl4med_final_project/causal_impact_demo.ipynb",
+  "codePath": "causal_impact_demo.ipynb",
+  "git": {
+    "remote": "git@github.com:LakeSJS/dl4med_final_project.git",
+    "commit": "28bd9b9323c2b99635239941a9e07bd1ecc93def"
+  },
+  "email": "lakej98@gmail.com",
+  "root": ".",
+  "host": "a100-4005",
+  "executable": "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/bin/python",
+  "codePathLocal": "causal_impact_demo.ipynb",
+  "cpu_count": 48,
+  "cpu_count_logical": 48,
+  "gpu": "NVIDIA A100 80GB PCIe",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "210241560576",
+      "used": "10239586304"
+    }
+  },
+  "memory": {
+    "total": "540465041408"
+  },
+  "cpu": {
+    "count": 48,
+    "countLogical": 48
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA A100 80GB PCIe",
+      "memoryTotal": "85899345920",
+      "cudaCores": 6912,
+      "architecture": "Ampere"
+    }
+  ],
+  "slurm": {
+    "cluster_name": "slurm_cluster",
+    "conf": "/etc/slurm/slurm.conf",
+    "cpus_on_node": "1",
+    "cpus_per_task": "1",
+    "gpus_on_node": "1",
+    "gtids": "0",
+    "job_account": "system",
+    "job_cpus_per_node": "1",
+    "job_end_time": "1744896425",
+    "job_gid": "1024325895",
+    "job_gpus": "1",
+    "job_id": "63041604",
+    "job_name": "jupyter-notebook",
+    "job_nodelist": "a100-4005",
+    "job_num_nodes": "1",
+    "job_partition": "a100_short",
+    "job_qos": "normal",
+    "job_start_time": "1744723624",
+    "job_uid": "1024208232",
+    "job_user": "slj9342",
+    "jobid": "63041604",
+    "localid": "0",
+    "mem_per_node": "65536",
+    "nnodes": "1",
+    "nodeid": "0",
+    "nodelist": "a100-4005",
+    "prio_process": "0",
+    "procid": "0",
+    "script_context": "prolog_task",
+    "submit_dir": "/gpfs/data/oermannlab/users/slj9342/dl4med_final_project",
+    "submit_host": "bigpurple-ln3",
+    "task_pid": "2670751",
+    "tasks_per_node": "1",
+    "topology_addr": "a100-4005",
+    "topology_addr_pattern": "node",
+    "tres_per_task": "cpu:1"
+  },
+  "cudaVersion": "12.6"
+}

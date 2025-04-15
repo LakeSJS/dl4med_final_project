@@ -1,0 +1,22 @@
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:654: Checkpoint directory /gpfs/data/oermannlab/users/slj9342/dl4med_final_project/checkpoints exists and is not empty.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name              | Type                | Params | Mode
+------------------------------------------------------------------
+0 | feature_extractor | FeatureExtractorCNN | 35.0 K | train
+1 | lstm_model        | SleepStageLSTM      | 54.6 K | train
+2 | criterion         | CrossEntropyLoss    | 0      | train
+------------------------------------------------------------------
+89.6 K    Trainable params
+0         Non-trainable params
+89.6 K    Total params
+0.358     Total estimated model params size (MB)
+14        Modules in train mode
+0         Modules in eval mode
+Metric val_loss improved. New best score: 1.460
+Metric val_loss improved by 0.107 >= min_delta = 0.0. New best score: 1.353
+Metric val_loss improved by 0.003 >= min_delta = 0.0. New best score: 1.350
+Metric val_loss improved by 0.009 >= min_delta = 0.0. New best score: 1.341
+Metric val_loss improved by 0.006 >= min_delta = 0.0. New best score: 1.336
+Metric val_loss improved by 0.004 >= min_delta = 0.0. New best score: 1.332
+`Trainer.fit` stopped: `max_epochs=10` reached.
