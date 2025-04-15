@@ -48,3 +48,11 @@ localhost:8515/lab?token=  (prefix w/ https:// if using password)
 [I 2025-04-15 11:18:02.177 ServerApp] Kernel interrupted: b52d6b9b-9ad3-4ea2-a3d0-1dcd3f4cd6e8
 [I 2025-04-15 12:20:59.235 ServerApp] Kernel interrupted: b52d6b9b-9ad3-4ea2-a3d0-1dcd3f4cd6e8
 [I 2025-04-15 12:21:30.160 ServerApp] Kernel interrupted: b52d6b9b-9ad3-4ea2-a3d0-1dcd3f4cd6e8
+[I 2025-04-15 17:00:10.246 ServerApp] Starting buffering for b52d6b9b-9ad3-4ea2-a3d0-1dcd3f4cd6e8:e475bae9-a9c7-494c-98ed-ecb04bffdd8c
+[I 2025-04-15 17:01:40.490 ServerApp] 302 GET / (@192.168.0.104) 0.33ms
+[I 2025-04-15 17:01:43.649 JupyterNotebookApp] 302 GET /tree? (@192.168.0.104) 0.49ms
+[I 2025-04-15 17:01:55.141 ServerApp] User 5ad7768b918a4727b75321e4e98b2c9a logged in.
+[I 2025-04-15 17:01:55.142 ServerApp] 302 POST /login? (5ad7768b918a4727b75321e4e98b2c9a@192.168.0.104) 1.50ms
+[I 2025-04-15 17:01:59.749 ServerApp] Connecting to kernel b52d6b9b-9ad3-4ea2-a3d0-1dcd3f4cd6e8.
+[W 2025-04-15 17:02:00.621 ServerApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js (@192.168.0.104) 1.76ms referer=None
+[W 2025-04-15 17:02:00.622 ServerApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js (@192.168.0.104) 2.73ms referer=None
