@@ -1,0 +1,67 @@
+2025-04-15 13:19:47,834 INFO    MainThread:2671111 [wandb_init.py:setup_run_log_directory():647] Logging user logs to ./wandb/run-20250415_131947-4lw5xp0c/logs/debug.log
+2025-04-15 13:19:47,834 INFO    MainThread:2671111 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to ./wandb/run-20250415_131947-4lw5xp0c/logs/debug-internal.log
+2025-04-15 13:19:47,834 INFO    MainThread:2671111 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x155418d42110>
+2025-04-15 13:19:47,834 INFO    MainThread:2671111 [wandb_init.py:init():761] calling init triggers
+2025-04-15 13:19:47,834 INFO    MainThread:2671111 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-04-15 13:19:47,834 INFO    MainThread:2671111 [wandb_init.py:init():784] starting backend
+2025-04-15 13:19:47,834 INFO    MainThread:2671111 [wandb_init.py:init():788] sending inform_init request
+2025-04-15 13:19:47,836 INFO    MainThread:2671111 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-15 13:19:47,836 INFO    MainThread:2671111 [wandb_init.py:init():798] backend started and connected
+2025-04-15 13:19:47,839 INFO    MainThread:2671111 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-04-15 13:19:47,846 INFO    MainThread:2671111 [wandb_init.py:init():891] updated telemetry
+2025-04-15 13:19:47,872 INFO    MainThread:2671111 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-04-15 13:19:48,286 INFO    MainThread:2671111 [wandb_init.py:init():990] starting run threads in backend
+2025-04-15 13:19:50,177 INFO    MainThread:2671111 [wandb_run.py:_console_start():2375] atexit reg
+2025-04-15 13:19:50,177 INFO    MainThread:2671111 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-04-15 13:19:50,178 INFO    MainThread:2671111 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-04-15 13:19:50,178 INFO    MainThread:2671111 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-04-15 13:19:50,178 INFO    MainThread:2671111 [wandb_init.py:init():1032] run started, returning control to user process
+2025-04-15 13:19:50,185 INFO    MainThread:2671111 [wandb_run.py:_config_callback():1261] config_cb None None {'in_channels': 6, 'cnn_output_channels': 32, 'lstm_hidden_size': 128, 'num_layers': 2, 'num_sleep_stages': 5, 'learning_rate': 0.00025613279689915464, 'class_weights': '[0.85966223 1.89339284 0.38728564 6.01506629 1.78483053]'}
+2025-04-15 13:19:50,406 INFO    MainThread:2671111 [wandb_run.py:_config_callback():1261] config_cb ('_wandb', 'visualize', 'True Label Distribution') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/bar/v0', 'fieldSettings': {'label': 'Class', 'value': 'Count'}, 'stringSettings': {'title': 'True Label Distribution'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'True Label Distribution_table'}], 'fields': []}]}]}}} None
+2025-04-15 13:19:50,406 INFO    MainThread:2671111 [wandb_run.py:_config_callback():1261] config_cb ('_wandb', 'visualize', 'Predicted Label Distribution') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/bar/v0', 'fieldSettings': {'label': 'Class', 'value': 'Count'}, 'stringSettings': {'title': 'Predicted Label Distribution'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'Predicted Label Distribution_table'}], 'fields': []}]}]}}} None
+2025-04-15 13:20:38,025 INFO    MainThread:2671111 [wandb_run.py:_config_callback():1261] config_cb ('_wandb', 'visualize', 'True Label Distribution') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/bar/v0', 'fieldSettings': {'label': 'Class', 'value': 'Count'}, 'stringSettings': {'title': 'True Label Distribution'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'True Label Distribution_table'}], 'fields': []}]}]}}} None
+2025-04-15 13:20:38,026 INFO    MainThread:2671111 [wandb_run.py:_config_callback():1261] config_cb ('_wandb', 'visualize', 'Predicted Label Distribution') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/bar/v0', 'fieldSettings': {'label': 'Class', 'value': 'Count'}, 'stringSettings': {'title': 'Predicted Label Distribution'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'Predicted Label Distribution_table'}], 'fields': []}]}]}}} None
+2025-04-15 13:21:20,669 INFO    MainThread:2671111 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-15 13:21:20,669 INFO    MainThread:2671111 [wandb_init.py:_pause_backend():564] pausing backend
+2025-04-15 13:21:20,673 INFO    MainThread:2671111 [wandb_init.py:_resume_backend():569] resuming backend
+2025-04-15 13:21:20,680 INFO    MainThread:2671111 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-15 13:21:20,680 INFO    MainThread:2671111 [wandb_init.py:_pause_backend():564] pausing backend
+2025-04-15 13:21:20,683 INFO    MainThread:2671111 [wandb_init.py:_resume_backend():569] resuming backend
+2025-04-15 13:21:20,684 INFO    MainThread:2671111 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-15 13:21:20,684 INFO    MainThread:2671111 [wandb_init.py:_pause_backend():564] pausing backend
+2025-04-15 13:21:20,689 INFO    MainThread:2671111 [wandb_init.py:_resume_backend():569] resuming backend
+2025-04-15 13:21:20,689 INFO    MainThread:2671111 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-15 13:21:20,689 INFO    MainThread:2671111 [wandb_init.py:_pause_backend():564] pausing backend
+2025-04-15 13:21:20,695 INFO    MainThread:2671111 [wandb_init.py:_resume_backend():569] resuming backend
+2025-04-15 13:21:20,702 INFO    MainThread:2671111 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-15 13:21:20,702 INFO    MainThread:2671111 [wandb_init.py:_pause_backend():564] pausing backend
+2025-04-15 13:21:20,704 INFO    MainThread:2671111 [wandb_init.py:_resume_backend():569] resuming backend
+2025-04-15 13:21:20,705 INFO    MainThread:2671111 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-15 13:21:20,705 INFO    MainThread:2671111 [wandb_init.py:_pause_backend():564] pausing backend
+2025-04-15 13:21:20,709 INFO    MainThread:2671111 [wandb_init.py:_resume_backend():569] resuming backend
+2025-04-15 13:21:20,710 INFO    MainThread:2671111 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-15 13:21:20,710 INFO    MainThread:2671111 [wandb_init.py:_pause_backend():564] pausing backend
+2025-04-15 13:21:20,714 INFO    MainThread:2671111 [wandb_init.py:_resume_backend():569] resuming backend
+2025-04-15 13:21:20,715 INFO    MainThread:2671111 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-15 13:21:20,715 INFO    MainThread:2671111 [wandb_init.py:_pause_backend():564] pausing backend
+2025-04-15 13:21:20,719 INFO    MainThread:2671111 [wandb_init.py:_resume_backend():569] resuming backend
+2025-04-15 13:21:20,720 INFO    MainThread:2671111 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-15 13:21:20,720 INFO    MainThread:2671111 [wandb_init.py:_pause_backend():564] pausing backend
+2025-04-15 13:21:20,725 INFO    MainThread:2671111 [wandb_init.py:_resume_backend():569] resuming backend
+2025-04-15 13:21:20,725 INFO    MainThread:2671111 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-15 13:21:20,725 INFO    MainThread:2671111 [wandb_init.py:_pause_backend():564] pausing backend
+2025-04-15 13:21:20,730 INFO    MainThread:2671111 [wandb_init.py:_resume_backend():569] resuming backend
+2025-04-15 13:21:20,735 INFO    MainThread:2671111 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-15 13:21:20,735 INFO    MainThread:2671111 [wandb_init.py:_pause_backend():564] pausing backend
+2025-04-15 13:21:21,607 INFO    MainThread:2671111 [wandb_init.py:_resume_backend():569] resuming backend
+2025-04-15 13:21:21,607 INFO    MainThread:2671111 [wandb_run.py:_finish():2112] finishing run lakej98-nyu-langone-health/optuna_sleep_stage_classification/4lw5xp0c
+2025-04-15 13:21:21,608 ERROR   MainThread:2671111 [jupyter.py:save_history():450] Run pip install nbformat to save notebook history
+2025-04-15 13:21:21,608 INFO    MainThread:2671111 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-15 13:21:21,608 INFO    MainThread:2671111 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-04-15 13:21:21,608 INFO    MainThread:2671111 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-04-15 13:21:21,608 INFO    MainThread:2671111 [wandb_run.py:_restore():2322] restore
+2025-04-15 13:21:21,608 INFO    MainThread:2671111 [wandb_run.py:_restore():2328] restore done
+2025-04-15 13:21:22,188 INFO    MainThread:2671111 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-04-15 13:21:22,188 INFO    MainThread:2671111 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-04-15 13:21:22,189 INFO    MainThread:2671111 [wandb_run.py:_footer_sync_info():3917] logging synced files
