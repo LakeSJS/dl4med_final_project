@@ -1,0 +1,47 @@
+
+Terminal command to create your ssh tunnel
+ssh -N -L 8515:a100-4005:8515 slj9342@bigpurple.nyumc.org
+Windows MobaXterm info
+Forwarded port:same as remote port
+Remote server: a100-4005
+Remote port: 8515
+SSH server: bigpurple.nyumc.org
+SSH login: slj9342
+SSH port: 22
+Use a Browser on your local machine to go to:
+localhost:8515/lab?token=  (prefix w/ https:// if using password)
+
+[I 2025-04-15 09:27:14.777 ServerApp] Extension package jupyter_lsp took 0.1915s to import
+[I 2025-04-15 09:27:15.307 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-04-15 09:27:15.311 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-04-15 09:27:15.316 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-04-15 09:27:15.319 ServerApp] notebook | extension was successfully linked.
+[I 2025-04-15 09:27:18.963 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-04-15 09:27:19.120 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-04-15 09:27:19.121 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-04-15 09:27:19.122 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-04-15 09:27:19.129 LabApp] JupyterLab extension loaded from /gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyterlab
+[I 2025-04-15 09:27:19.129 LabApp] JupyterLab application directory is /gpfs/data/oermannlab/users/slj9342/.local/share/jupyter/lab
+[I 2025-04-15 09:27:19.130 LabApp] Extension Manager is 'pypi'.
+[I 2025-04-15 09:27:19.508 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-04-15 09:27:19.512 ServerApp] notebook | extension was successfully loaded.
+[I 2025-04-15 09:27:19.512 ServerApp] Serving notebooks from local directory: /gpfs/data/oermannlab/users/slj9342/dl4med_final_project
+[I 2025-04-15 09:27:19.512 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2025-04-15 09:27:19.512 ServerApp] http://a100-4005:8515/tree?token=2da3b37beebf887a64e9b5ab3606ea46df160d193b0b2e3a
+[I 2025-04-15 09:27:19.512 ServerApp]     http://127.0.0.1:8515/tree?token=2da3b37beebf887a64e9b5ab3606ea46df160d193b0b2e3a
+[I 2025-04-15 09:27:19.512 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2025-04-15 09:27:19.519 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///gpfs/data/oermannlab/users/slj9342/.local/share/jupyter/runtime/jpserver-2670793-open.html
+    Or copy and paste one of these URLs:
+        http://a100-4005:8515/tree?token=2da3b37beebf887a64e9b5ab3606ea46df160d193b0b2e3a
+        http://127.0.0.1:8515/tree?token=2da3b37beebf887a64e9b5ab3606ea46df160d193b0b2e3a
+[I 2025-04-15 09:27:19.546 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2025-04-15 09:27:36.356 ServerApp] 404 GET /hub/api (@192.168.0.103) 935.32ms referer=None
+[I 2025-04-15 09:27:36.360 ServerApp] 302 GET / (@192.168.0.103) 0.32ms
+[I 2025-04-15 09:27:36.364 JupyterNotebookApp] 302 GET /tree? (@192.168.0.103) 0.41ms
+[I 2025-04-15 09:27:44.000 ServerApp] User 8927169f53704206babe0eb82825c982 logged in.
+[I 2025-04-15 09:27:44.001 ServerApp] 302 POST /login? (8927169f53704206babe0eb82825c982@192.168.0.103) 1.91ms
+[I 2025-04-15 09:27:53.024 ServerApp] Kernel started: b52d6b9b-9ad3-4ea2-a3d0-1dcd3f4cd6e8
+[I 2025-04-15 09:28:02.608 ServerApp] Connecting to kernel b52d6b9b-9ad3-4ea2-a3d0-1dcd3f4cd6e8.
