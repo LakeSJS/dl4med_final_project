@@ -1,0 +1,21 @@
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:654: Checkpoint directory /gpfs/data/oermannlab/users/slj9342/dl4med_final_project/checkpoints exists and is not empty.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name       | Type                   | Params | Mode
+--------------------------------------------------------------
+0 | acc_cnn    | ACCFeatureExtractorCNN | 147 K  | train
+1 | lstm       | LSTM                   | 209 K  | train
+2 | classifier | Linear                 | 645    | train
+3 | criterion  | CrossEntropyLoss       | 0      | train
+--------------------------------------------------------------
+357 K     Trainable params
+0         Non-trainable params
+357 K     Total params
+1.431     Total estimated model params size (MB)
+16        Modules in train mode
+0         Modules in eval mode
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/loops/fit_loop.py:310: The number of training batches (17) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+Metric val_loss improved. New best score: 1.603
+Metric val_loss improved by 0.028 >= min_delta = 0.0. New best score: 1.575
+Metric val_loss improved by 0.026 >= min_delta = 0.0. New best score: 1.549
+Monitored metric val_loss did not improve in the last 3 records. Best score: 1.549. Signaling Trainer to stop.
