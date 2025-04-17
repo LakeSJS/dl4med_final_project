@@ -1,0 +1,108 @@
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:654: Checkpoint directory /gpfs/data/oermannlab/users/slj9342/dl4med_final_project/checkpoints exists and is not empty.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name       | Type                   | Params | Mode
+--------------------------------------------------------------
+0 | acc_cnn    | ACCFeatureExtractorCNN | 143 K  | train
+1 | lstm       | LSTM                   | 205 K  | train
+2 | classifier | Linear                 | 645    | train
+3 | criterion  | CrossEntropyLoss       | 0      | train
+--------------------------------------------------------------
+349 K     Trainable params
+0         Non-trainable params
+349 K     Total params
+1.398     Total estimated model params size (MB)
+16        Modules in train mode
+0         Modules in eval mode
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/loops/fit_loop.py:310: The number of training batches (17) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+
+Detected KeyboardInterrupt, attempting graceful shutdown ...
+[W 2025-04-17 14:03:22,234] Trial 2 failed with parameters: {'cnn_output_channels': 8, 'lstm_hidden_size': 128, 'learning_rate': 0.003472318998222742} because of the following error: NameError("name 'exit' is not defined").
+Traceback (most recent call last):
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/trainer/call.py", line 48, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/trainer/trainer.py", line 599, in _fit_impl
+    self._run(model, ckpt_path=ckpt_path)
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/trainer/trainer.py", line 1012, in _run
+    results = self._run_stage()
+              ^^^^^^^^^^^^^^^^^
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/trainer/trainer.py", line 1056, in _run_stage
+    self.fit_loop.run()
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/loops/fit_loop.py", line 216, in run
+    self.advance()
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/loops/fit_loop.py", line 455, in advance
+    self.epoch_loop.run(self._data_fetcher)
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/loops/training_epoch_loop.py", line 150, in run
+    self.advance(data_fetcher)
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/loops/training_epoch_loop.py", line 282, in advance
+    batch, _, __ = next(data_fetcher)
+                   ^^^^^^^^^^^^^^^^^^
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/loops/fetchers.py", line 134, in __next__
+    batch = super().__next__()
+            ^^^^^^^^^^^^^^^^^^
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/loops/fetchers.py", line 61, in __next__
+    batch = next(self.iterator)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/utilities/combined_loader.py", line 341, in __next__
+    out = next(self._iterator)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/utilities/combined_loader.py", line 78, in __next__
+    out[i] = next(self.iterators[i])
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 708, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 764, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/torch/utils/data/_utils/fetch.py", line 52, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "/tmp/ipykernel_2675438/1584747656.py", line 160, in __getitem__
+    acc     = forward_fill(acc.unsqueeze(1)).squeeze(1)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2675438/1584747656.py", line 29, in forward_fill
+    if torch.isnan(x[t, c]):
+       ^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/optuna/study/_optimize.py", line 197, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/tmp/ipykernel_2675438/1488528558.py", line 43, in objective
+    trainer.fit(model, train_loader, val_loader)
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/trainer/trainer.py", line 561, in fit
+    call._call_and_handle_interrupt(
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/trainer/call.py", line 65, in _call_and_handle_interrupt
+    exit(1)
+    ^^^^
+NameError: name 'exit' is not defined
+[W 2025-04-17 14:03:22,296] Trial 2 failed with value None.
+EXECUTABLE/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/bin/pythonEXECUTABLE
+EXECUTABLE/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/bin/pythonEXECUTABLE
+EXECUTABLE/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/bin/pythonEXECUTABLE
+EXECUTABLE/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/bin/pythonEXECUTABLE
+EXECUTABLE/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/bin/pythonEXECUTABLE
+EXECUTABLE/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/bin/pythonEXECUTABLE
+EXECUTABLE/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/bin/pythonEXECUTABLE
+Non-acc shape: torch.Size([1200, 5])
+ACC shape: torch.Size([192000])
+Labels shape: torch.Size([1200])
+Output shape: torch.Size([1, 16, 2929]) (batch_size, cnn_output_channels, epoch_samples)
+CNN downsampling factor: 65.55138272447934
+[DEBUG] ACC CNN output shape: torch.Size([1, 16, 2929])
+[DEBUG] NON_ACC input shape: torch.Size([1, 1200, 5])
+[DEBUG] Downsampling ACC features from 2929 to 1200
+[DEBUG] ACC features shape: torch.Size([1, 16, 1200])
+[DEBUG] non-ACC features shape: torch.Size([1, 1200, 5])
+[DEBUG] LSTM input shape: torch.Size([1200, 1, 21])
+[DEBUG] LSTM output shape: torch.Size([1200, 1, 64])
+[DEBUG] Classifier output shape: torch.Size([1200, 1, 5])
+Total samples in train dataset: 24
