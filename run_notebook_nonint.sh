@@ -17,7 +17,7 @@ conda activate dl4med_25
 export TORCH_USE_CUDA_DSA=1
 
 # Run notebook
-
+jupyter nbconvert --to script causal_impact_demo.ipynb --output causal_impact_demo.py
 jupyter nbconvert --to notebook --execute --allow-errors causal_impact_demo.ipynb --output causal_impact_demo.ipynb
 
 # convert executed notebook to pdf

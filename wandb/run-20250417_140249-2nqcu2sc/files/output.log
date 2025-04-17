@@ -106,3 +106,49 @@ CNN downsampling factor: 65.55138272447934
 [DEBUG] LSTM output shape: torch.Size([1200, 1, 64])
 [DEBUG] Classifier output shape: torch.Size([1200, 1, 5])
 Total samples in train dataset: 24
+Total samples in val dataset: 3
+Total samples in test dataset: 3
+EXECUTABLE/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/bin/pythonEXECUTABLE
+Non-acc shape: torch.Size([2400, 5])
+ACC shape: torch.Size([384000])
+Labels shape: torch.Size([2400])
+Output shape: torch.Size([1, 16, 5929]) (batch_size, cnn_output_channels, epoch_samples)
+CNN downsampling factor: 64.7664024287401
+[DEBUG] ACC CNN output shape: torch.Size([1, 16, 5929])
+[DEBUG] NON_ACC input shape: torch.Size([1, 2400, 5])
+[DEBUG] Downsampling ACC features from 5929 to 2400
+[DEBUG] ACC features shape: torch.Size([1, 16, 2400])
+[DEBUG] non-ACC features shape: torch.Size([1, 2400, 5])
+[DEBUG] LSTM input shape: torch.Size([2400, 1, 21])
+[DEBUG] LSTM output shape: torch.Size([2400, 1, 64])
+[DEBUG] Classifier output shape: torch.Size([2400, 1, 5])
+Class counts: Counter({np.int64(2): 30008, np.int64(0): 12604, np.int64(1): 6380, np.int64(4): 5983, np.int64(3): 1688})
+Class weights: [0.89912726 1.77626959 0.37765263 6.71362559 1.89413338]
+[I 2025-04-17 14:08:04,867] A new study created in memory with name: no-name-da89fa29-b272-4cef-a178-03b35b42bd13
+/tmp/ipykernel_2675438/562570545.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-5, 1e-2)
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/lightning_fabric/plugins/environments/slurm.py:204: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python /gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4m ...
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/loggers/wandb.py:397: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:654: Checkpoint directory /gpfs/data/oermannlab/users/slj9342/dl4med_final_project/checkpoints exists and is not empty.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name       | Type                   | Params | Mode
+--------------------------------------------------------------
+0 | acc_cnn    | ACCFeatureExtractorCNN | 143 K  | train
+1 | lstm       | LSTM                   | 53.5 K | train
+2 | classifier | Linear                 | 325    | train
+3 | criterion  | CrossEntropyLoss       | 0      | train
+4 | kappa      | MulticlassCohenKappa   | 0      | train
+--------------------------------------------------------------
+197 K     Trainable params
+0         Non-trainable params
+197 K     Total params
+0.789     Total estimated model params size (MB)
+17        Modules in train mode
+0         Modules in eval mode
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/loops/fit_loop.py:310: The number of training batches (6) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+Metric val_loss improved. New best score: 1.545
+Monitored metric val_loss did not improve in the last 3 records. Best score: 1.545. Signaling Trainer to stop.
