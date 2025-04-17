@@ -63,3 +63,35 @@ config: {'_wandb': {}}
 2025-04-17 14:03:44,489 INFO    MainThread:2675438 [jupyter.py:save_ipynb():386] not saving jupyter notebook
 2025-04-17 14:03:44,489 INFO    MainThread:2675438 [wandb_init.py:_pause_backend():564] pausing backend
 2025-04-17 14:04:36,760 INFO    MainThread:2675438 [wandb_init.py:_resume_backend():569] resuming backend
+2025-04-17 14:06:56,432 INFO    MainThread:2675438 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-17 14:06:56,441 INFO    MainThread:2675438 [wandb_init.py:_pause_backend():564] pausing backend
+2025-04-17 14:06:56,446 INFO    MainThread:2675438 [wandb_init.py:_resume_backend():569] resuming backend
+2025-04-17 14:06:56,450 INFO    MainThread:2675438 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-17 14:06:56,450 INFO    MainThread:2675438 [wandb_init.py:_pause_backend():564] pausing backend
+2025-04-17 14:06:56,454 INFO    MainThread:2675438 [wandb_init.py:_resume_backend():569] resuming backend
+2025-04-17 14:06:56,459 INFO    MainThread:2675438 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-17 14:06:56,459 INFO    MainThread:2675438 [wandb_init.py:_pause_backend():564] pausing backend
+2025-04-17 14:06:56,461 INFO    MainThread:2675438 [wandb_init.py:_resume_backend():569] resuming backend
+2025-04-17 14:06:56,461 INFO    MainThread:2675438 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-17 14:06:56,461 INFO    MainThread:2675438 [wandb_init.py:_pause_backend():564] pausing backend
+2025-04-17 14:06:56,466 INFO    MainThread:2675438 [wandb_init.py:_resume_backend():569] resuming backend
+2025-04-17 14:06:56,471 INFO    MainThread:2675438 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-17 14:06:56,471 INFO    MainThread:2675438 [wandb_init.py:_pause_backend():564] pausing backend
+2025-04-17 14:06:56,517 INFO    MainThread:2675438 [wandb_init.py:_resume_backend():569] resuming backend
+2025-04-17 14:06:59,675 INFO    MainThread:2675438 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-17 14:06:59,675 INFO    MainThread:2675438 [wandb_init.py:_pause_backend():564] pausing backend
+2025-04-17 14:06:59,696 INFO    MainThread:2675438 [wandb_init.py:_resume_backend():569] resuming backend
+2025-04-17 14:08:04,831 INFO    MainThread:2675438 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-17 14:08:04,831 INFO    MainThread:2675438 [wandb_init.py:_pause_backend():564] pausing backend
+2025-04-17 14:08:04,866 INFO    MainThread:2675438 [wandb_init.py:_resume_backend():569] resuming backend
+2025-04-17 14:08:04,954 INFO    MainThread:2675438 [wandb_run.py:_config_callback():1261] config_cb None None {'non_acc_dim': 5, 'cnn_output_channels': 8, 'lstm_hidden_size': 64, 'lstm_layers': 2, 'num_sleep_stages': 5, 'lr': 0.007126922599516551, 'weight_tensor': 'tensor([0.8991, 1.7763, 0.3777, 6.7136, 1.8941])', 'debug': False}
+2025-04-17 14:13:07,559 INFO    MainThread:2675438 [wandb_run.py:_finish():2112] finishing run lakej98-nyu-langone-health/acc_aware_model/2nqcu2sc
+2025-04-17 14:13:07,560 ERROR   MainThread:2675438 [jupyter.py:save_history():450] Run pip install nbformat to save notebook history
+2025-04-17 14:13:07,560 INFO    MainThread:2675438 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-17 14:13:07,560 INFO    MainThread:2675438 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-04-17 14:13:07,560 INFO    MainThread:2675438 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-04-17 14:13:07,561 INFO    MainThread:2675438 [wandb_run.py:_restore():2322] restore
+2025-04-17 14:13:07,561 INFO    MainThread:2675438 [wandb_run.py:_restore():2328] restore done
+2025-04-17 14:13:08,100 INFO    MainThread:2675438 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-04-17 14:13:08,100 INFO    MainThread:2675438 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-04-17 14:13:08,101 INFO    MainThread:2675438 [wandb_run.py:_footer_sync_info():3917] logging synced files

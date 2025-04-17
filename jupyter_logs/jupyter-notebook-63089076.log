@@ -52,3 +52,11 @@ localhost:8054/lab?token=  (prefix w/ https:// if using password)
 [W 2025-04-17 10:50:24.770 ServerApp] Nudge: attempt 10 on kernel 0a3b0bdc-a830-4266-a650-f46c103e67f2
 [W 2025-04-17 10:50:29.779 ServerApp] Nudge: attempt 20 on kernel 0a3b0bdc-a830-4266-a650-f46c103e67f2
 [I 2025-04-17 11:23:28.667 ServerApp] Kernel interrupted: 0a3b0bdc-a830-4266-a650-f46c103e67f2
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mnf_32hs_128lr_0.0003765617930403359[0m at: [34mhttps://wandb.ai/lakej98-nyu-langone-health/acc_aware_model/runs/xdubx9gy[0m
+[I 2025-04-17 17:07:06.190 ServerApp] Kernel restarted: 0a3b0bdc-a830-4266-a650-f46c103e67f2
+[I 2025-04-17 17:07:06.193 ServerApp] Starting buffering for 0a3b0bdc-a830-4266-a650-f46c103e67f2:87803677-79fe-4490-b185-e81c899cf086
+[I 2025-04-17 17:07:06.201 ServerApp] Connecting to kernel 0a3b0bdc-a830-4266-a650-f46c103e67f2.
+[I 2025-04-17 17:07:06.201 ServerApp] Restoring connection for 0a3b0bdc-a830-4266-a650-f46c103e67f2:87803677-79fe-4490-b185-e81c899cf086
+[W 2025-04-17 17:07:10.711 ServerApp] Nudge: attempt 10 on kernel 0a3b0bdc-a830-4266-a650-f46c103e67f2
+[W 2025-04-17 17:07:15.723 ServerApp] Nudge: attempt 20 on kernel 0a3b0bdc-a830-4266-a650-f46c103e67f2

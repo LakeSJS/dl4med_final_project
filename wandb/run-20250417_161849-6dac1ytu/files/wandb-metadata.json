@@ -1,0 +1,82 @@
+{
+  "os": "Linux-4.18.0-477.27.1.el8_8.x86_64-x86_64-with-glibc2.28",
+  "python": "CPython 3.11.11",
+  "startedAt": "2025-04-17T20:18:49.654992Z",
+  "args": [
+    "-f",
+    "/tmp/tmpclp6gj9y.json"
+  ],
+  "program": "<python with no main file>",
+  "git": {
+    "remote": "git@github.com:LakeSJS/dl4med_final_project.git",
+    "commit": "a8ac9ba7f1ebd875a5f10e7de56f3c9c84f4fadb"
+  },
+  "email": "lakej98@gmail.com",
+  "root": ".",
+  "host": "a100-4015",
+  "executable": "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/bin/python",
+  "cpu_count": 48,
+  "cpu_count_logical": 48,
+  "gpu": "NVIDIA A100 80GB PCIe",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "210241560576",
+      "used": "10239295488"
+    }
+  },
+  "memory": {
+    "total": "540465049600"
+  },
+  "cpu": {
+    "count": 48,
+    "countLogical": 48
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA A100 80GB PCIe",
+      "memoryTotal": "85899345920",
+      "cudaCores": 6912,
+      "architecture": "Ampere"
+    }
+  ],
+  "slurm": {
+    "cluster_name": "slurm_cluster",
+    "conf": "/etc/slurm/slurm.conf",
+    "cpus_on_node": "16",
+    "cpus_per_task": "16",
+    "gpus_on_node": "1",
+    "gtids": "0",
+    "job_account": "system",
+    "job_cpus_per_node": "16",
+    "job_end_time": "1745000202",
+    "job_gid": "1024325895",
+    "job_gpus": "0",
+    "job_id": "63091547",
+    "job_name": "finalproj",
+    "job_nodelist": "a100-4015",
+    "job_num_nodes": "1",
+    "job_partition": "a100_short",
+    "job_qos": "normal",
+    "job_start_time": "1744913800",
+    "job_uid": "1024208232",
+    "job_user": "slj9342",
+    "jobid": "63091547",
+    "localid": "0",
+    "mem_per_node": "131072",
+    "nnodes": "1",
+    "nodeid": "0",
+    "nodelist": "a100-4015",
+    "prio_process": "0",
+    "procid": "0",
+    "script_context": "prolog_task",
+    "submit_dir": "/gpfs/data/oermannlab/users/slj9342/dl4med_final_project",
+    "submit_host": "bigpurple-ln2",
+    "task_pid": "3773870",
+    "tasks_per_node": "1",
+    "topology_addr": "a100-4015",
+    "topology_addr_pattern": "node",
+    "tres_per_task": "cpu:16"
+  },
+  "cudaVersion": "12.6"
+}
