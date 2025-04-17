@@ -10,6 +10,8 @@
 #SBATCH --mail-user=spencer.jacobs-skolik@nyulangone.org
 
 export CUDA_LAUNCH_BLOCKING=1
+export TORCH_USE_CUDA_DSA=1
+
 # Load conda
 source /gpfs/share/apps/miniconda3/gpu/4.9.2/etc/profile.d/conda.sh
 

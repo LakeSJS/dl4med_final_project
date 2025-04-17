@@ -1,0 +1,18 @@
+{"time":"2025-04-16T16:43:02.592765327-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"wandb/run-20250416_164302-1fntmguf/logs/debug-core.log"}
+{"time":"2025-04-16T16:43:02.747027608-04:00","level":"INFO","msg":"created new stream","id":"1fntmguf"}
+{"time":"2025-04-16T16:43:02.747084801-04:00","level":"INFO","msg":"stream: started","id":"1fntmguf"}
+{"time":"2025-04-16T16:43:02.747172-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"1fntmguf"}
+{"time":"2025-04-16T16:43:02.747188593-04:00","level":"INFO","msg":"handler: started","stream_id":"1fntmguf"}
+{"time":"2025-04-16T16:43:02.747194377-04:00","level":"INFO","msg":"sender: started","stream_id":"1fntmguf"}
+{"time":"2025-04-16T16:43:03.074616265-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T17:59:05.584282926-04:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-04-16T18:00:03.437504495-04:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/lakej98-nyu-langone-health/sleep_stage_classification/1fntmguf/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-04-16T19:58:29.460737164-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T19:58:29.517186736-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T19:58:30.183376718-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T19:58:30.297564888-04:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-04-16T19:58:30.31996318-04:00","level":"INFO","msg":"stream: closing","id":"1fntmguf"}
+{"time":"2025-04-16T19:58:30.319976456-04:00","level":"INFO","msg":"handler: closed","stream_id":"1fntmguf"}
+{"time":"2025-04-16T19:58:30.319984495-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"1fntmguf"}
+{"time":"2025-04-16T19:58:30.320026424-04:00","level":"INFO","msg":"sender: closed","stream_id":"1fntmguf"}
+{"time":"2025-04-16T19:58:30.356711928-04:00","level":"INFO","msg":"stream: closed","id":"1fntmguf"}

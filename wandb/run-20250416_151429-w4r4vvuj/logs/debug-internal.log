@@ -1,0 +1,24 @@
+{"time":"2025-04-16T15:14:29.412596782-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"wandb/run-20250416_151429-w4r4vvuj/logs/debug-core.log"}
+{"time":"2025-04-16T15:14:29.849176338-04:00","level":"INFO","msg":"created new stream","id":"w4r4vvuj"}
+{"time":"2025-04-16T15:14:29.849207033-04:00","level":"INFO","msg":"stream: started","id":"w4r4vvuj"}
+{"time":"2025-04-16T15:14:29.849539077-04:00","level":"INFO","msg":"handler: started","stream_id":"w4r4vvuj"}
+{"time":"2025-04-16T15:14:29.849562986-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"w4r4vvuj"}
+{"time":"2025-04-16T15:14:29.849677976-04:00","level":"INFO","msg":"sender: started","stream_id":"w4r4vvuj"}
+{"time":"2025-04-16T15:14:30.209497382-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T15:16:02.009789555-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-16T15:16:30.345419617-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-16T15:16:30.385126851-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-16T15:16:34.130117336-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-16T15:16:34.169140024-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-16T15:16:36.784249837-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-16T15:16:46.930919036-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-16T15:16:51.053115942-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-16T15:16:51.055763788-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T15:16:51.056516903-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T15:16:51.471338637-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T15:16:51.60311966-04:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-04-16T15:16:51.607084149-04:00","level":"INFO","msg":"stream: closing","id":"w4r4vvuj"}
+{"time":"2025-04-16T15:16:51.607094239-04:00","level":"INFO","msg":"handler: closed","stream_id":"w4r4vvuj"}
+{"time":"2025-04-16T15:16:51.607102673-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"w4r4vvuj"}
+{"time":"2025-04-16T15:16:51.607242821-04:00","level":"INFO","msg":"sender: closed","stream_id":"w4r4vvuj"}
+{"time":"2025-04-16T15:16:51.607309372-04:00","level":"INFO","msg":"stream: closed","id":"w4r4vvuj"}

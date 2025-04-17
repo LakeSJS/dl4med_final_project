@@ -18,7 +18,7 @@ export TORCH_USE_CUDA_DSA=1
 
 # Run notebook
 
-jupyter nbconvert --to notebook --execute --allow-errors causal_impact_demo.ipynb --output demo_executed.ipynb
+jupyter nbconvert --to notebook --execute --allow-errors causal_impact_demo.ipynb --output causal_impact_demo.ipynb
 
 # convert executed notebook to pdf
 #jupyter nbconvert --to pdf hw3_executed.ipynb --output-dir=../pdfs --PDFExporter.latex_command="['pdflatex', '{filename}', '-interaction=nonstopmode', '-output-directory={tempdir}']" --PDFExporter.verbose=True
