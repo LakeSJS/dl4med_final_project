@@ -1,0 +1,29 @@
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:654: Checkpoint directory /gpfs/data/oermannlab/users/slj9342/dl4med_final_project/checkpoints exists and is not empty.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name              | Type                 | Params | Mode
+-------------------------------------------------------------------
+0 | feature_extractor | FeatureExtractorCNN  | 87.5 K | train
+1 | lstm_model        | SleepStageLSTM       | 215 K  | train
+2 | criterion         | CrossEntropyLoss     | 0      | train
+3 | kappa             | MulticlassCohenKappa | 0      | train
+-------------------------------------------------------------------
+303 K     Trainable params
+0         Non-trainable params
+303 K     Total params
+1.213     Total estimated model params size (MB)
+23        Modules in train mode
+0         Modules in eval mode
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/loops/fit_loop.py:310: The number of training batches (32) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+Metric val_loss improved. New best score: 1.262
+
+Detected KeyboardInterrupt, attempting graceful shutdown ...
+EXECUTABLE/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/bin/pythonEXECUTABLE
+EXECUTABLE/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/bin/pythonEXECUTABLE
+EXECUTABLE/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/bin/pythonEXECUTABLE
+EXECUTABLE/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/bin/pythonEXECUTABLE
+EXECUTABLE/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/bin/pythonEXECUTABLE
+EXECUTABLE/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/bin/pythonEXECUTABLE
+EXECUTABLE/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/bin/pythonEXECUTABLE
+EXECUTABLE/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/bin/pythonEXECUTABLE
+256.6844919786096

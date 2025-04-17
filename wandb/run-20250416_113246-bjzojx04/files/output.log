@@ -571,3 +571,29 @@ dtype: object
 number of subjects in train: 80
 number of subjects in val: 10
 number of subjects in test: 10
+Class counts: Counter({np.int64(2): 3313672, np.int64(4): 700256, np.int64(1): 635351, np.int64(3): 217645, np.int64(-1): 7225})
+Class weights: [134.92453979   1.53431694   0.29418416   4.4789901    1.39210489]
+EXECUTABLE/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/bin/pythonEXECUTABLE
+Total samples in train chunk dataset: 5107
+Total samples in val chunk dataset: 641
+Total samples in test chunk dataset: 665
+EXECUTABLE/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/bin/pythonEXECUTABLE
+EXECUTABLE/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/bin/pythonEXECUTABLE
+EXECUTABLE/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/bin/pythonEXECUTABLE
+Max length: 2493810
+Max length after downsampling: 7817
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/lightning_fabric/connector.py:571: `precision=16` is supported for historical reasons but its usage is discouraged. Please set your precision to 16-mixed instead!
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/lightning_fabric/plugins/environments/slurm.py:204: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python /gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4m ...
+Using 16bit Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/loggers/wandb.py:397: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:654: Checkpoint directory /gpfs/data/oermannlab/users/slj9342/dl4med_final_project/checkpoints exists and is not empty.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+EXECUTABLE/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/bin/pythonEXECUTABLE
+Using 16bit Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
