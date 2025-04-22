@@ -1,0 +1,69 @@
+2025-04-22 10:32:54,180 INFO    MainThread:1459400 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-04-22 10:32:54,180 INFO    MainThread:1459400 [wandb_setup.py:_flush():67] Configure stats pid to 1459400
+2025-04-22 10:32:54,180 INFO    MainThread:1459400 [wandb_setup.py:_flush():67] Loading settings from /gpfs/data/oermannlab/users/slj9342/.config/wandb/settings
+2025-04-22 10:32:54,180 INFO    MainThread:1459400 [wandb_setup.py:_flush():67] Loading settings from /gpfs/data/oermannlab/users/slj9342/dl4med_final_project/wandb/settings
+2025-04-22 10:32:54,180 INFO    MainThread:1459400 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-22 10:32:54,180 INFO    MainThread:1459400 [wandb_init.py:setup_run_log_directory():647] Logging user logs to ./wandb/run-20250422_103254-3yw3n25o/logs/debug.log
+2025-04-22 10:32:54,180 INFO    MainThread:1459400 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to ./wandb/run-20250422_103254-3yw3n25o/logs/debug-internal.log
+2025-04-22 10:32:54,180 INFO    MainThread:1459400 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x1554421f6950>
+2025-04-22 10:32:54,180 INFO    MainThread:1459400 [wandb_init.py:init():761] calling init triggers
+2025-04-22 10:32:54,180 INFO    MainThread:1459400 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-04-22 10:32:54,180 INFO    MainThread:1459400 [wandb_init.py:init():784] starting backend
+2025-04-22 10:32:54,180 INFO    MainThread:1459400 [wandb_init.py:init():788] sending inform_init request
+2025-04-22 10:32:54,218 INFO    MainThread:1459400 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-22 10:32:54,218 INFO    MainThread:1459400 [wandb_init.py:init():798] backend started and connected
+2025-04-22 10:32:54,221 INFO    MainThread:1459400 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-04-22 10:32:54,231 INFO    MainThread:1459400 [wandb_init.py:init():891] updated telemetry
+2025-04-22 10:32:54,247 INFO    MainThread:1459400 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-04-22 10:32:54,554 INFO    MainThread:1459400 [wandb_init.py:init():990] starting run threads in backend
+2025-04-22 10:32:56,248 INFO    MainThread:1459400 [wandb_run.py:_console_start():2375] atexit reg
+2025-04-22 10:32:56,248 INFO    MainThread:1459400 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-04-22 10:32:56,248 INFO    MainThread:1459400 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-04-22 10:32:56,248 INFO    MainThread:1459400 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-04-22 10:32:56,279 INFO    MainThread:1459400 [wandb_init.py:init():1032] run started, returning control to user process
+2025-04-22 10:32:56,455 INFO    MainThread:1459400 [wandb_run.py:_config_callback():1261] config_cb None None {'non_acc_dim': 5, 'cnn_output_channels': 16, 'xformer_d_model': 128, 'xformer_depth': 4, 'xformer_heads': 4, 'dropout': 0.1, 'num_classes': 5, 'downsampled_chunk_length': 2400, 'lr': 0.001, 'weight_decay': 1e-05, 'weight_tensor': 'tensor([0.8268, 1.9622, 0.3886, 5.7956, 1.8697])', 'debug': True}
+2025-04-22 10:33:24,940 INFO    MainThread:1459400 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-22 10:33:24,940 INFO    MainThread:1459400 [wandb_init.py:_pause_backend():564] pausing backend
+2025-04-22 10:33:54,809 INFO    MainThread:1459400 [wandb_init.py:_resume_backend():569] resuming backend
+2025-04-22 10:33:54,814 INFO    MainThread:1459400 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-22 10:33:54,814 INFO    MainThread:1459400 [wandb_init.py:_pause_backend():564] pausing backend
+2025-04-22 10:34:18,176 INFO    MainThread:1459400 [wandb_init.py:_resume_backend():569] resuming backend
+2025-04-22 10:34:18,180 INFO    MainThread:1459400 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-22 10:34:18,181 INFO    MainThread:1459400 [wandb_init.py:_pause_backend():564] pausing backend
+2025-04-22 10:34:33,638 INFO    MainThread:1459400 [wandb_init.py:_resume_backend():569] resuming backend
+2025-04-22 10:34:33,642 INFO    MainThread:1459400 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-22 10:34:33,642 INFO    MainThread:1459400 [wandb_init.py:_pause_backend():564] pausing backend
+2025-04-22 10:34:42,118 INFO    MainThread:1459400 [wandb_init.py:_resume_backend():569] resuming backend
+2025-04-22 10:34:42,120 INFO    MainThread:1459400 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-22 10:34:42,121 INFO    MainThread:1459400 [wandb_init.py:_pause_backend():564] pausing backend
+2025-04-22 10:34:52,067 INFO    MainThread:1459400 [wandb_init.py:_resume_backend():569] resuming backend
+2025-04-22 10:34:54,847 INFO    MainThread:1459400 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-22 10:34:54,847 INFO    MainThread:1459400 [wandb_init.py:_pause_backend():564] pausing backend
+2025-04-22 10:34:56,316 INFO    MainThread:1459400 [wandb_init.py:_resume_backend():569] resuming backend
+2025-04-22 10:34:56,430 INFO    MainThread:1459400 [wandb_run.py:_config_callback():1261] config_cb None None {'non_acc_dim': 5, 'cnn_output_channels': 16, 'xformer_d_model': 128, 'xformer_depth': 4, 'xformer_heads': 4, 'dropout': 0.1, 'num_classes': 5, 'downsampled_chunk_length': 2400, 'lr': 0.001, 'weight_decay': 1e-05, 'weight_tensor': 'tensor([0.8268, 1.9622, 0.3886, 5.7956, 1.8697])', 'debug': False}
+2025-04-22 11:01:29,335 INFO    MainThread:1459400 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-22 11:01:29,351 INFO    MainThread:1459400 [wandb_init.py:_pause_backend():564] pausing backend
+2025-04-22 11:01:29,355 INFO    MainThread:1459400 [wandb_init.py:_resume_backend():569] resuming backend
+2025-04-22 11:01:29,360 INFO    MainThread:1459400 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-22 11:01:29,360 INFO    MainThread:1459400 [wandb_init.py:_pause_backend():564] pausing backend
+2025-04-22 11:01:29,363 INFO    MainThread:1459400 [wandb_init.py:_resume_backend():569] resuming backend
+2025-04-22 11:01:29,368 INFO    MainThread:1459400 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-22 11:01:29,368 INFO    MainThread:1459400 [wandb_init.py:_pause_backend():564] pausing backend
+2025-04-22 11:01:29,372 INFO    MainThread:1459400 [wandb_init.py:_resume_backend():569] resuming backend
+2025-04-22 11:01:29,377 INFO    MainThread:1459400 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-22 11:01:29,377 INFO    MainThread:1459400 [wandb_init.py:_pause_backend():564] pausing backend
+2025-04-22 11:01:30,477 INFO    MainThread:1459400 [wandb_init.py:_resume_backend():569] resuming backend
+2025-04-22 11:01:30,481 INFO    MainThread:1459400 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-22 11:01:30,481 INFO    MainThread:1459400 [wandb_init.py:_pause_backend():564] pausing backend
+2025-04-22 11:01:40,537 INFO    MainThread:1459400 [wandb_init.py:_resume_backend():569] resuming backend
+2025-04-22 11:01:40,537 INFO    MainThread:1459400 [wandb_run.py:_finish():2112] finishing run lakej98-nyu-langone-health/mixed_freq_cnn_transformer/3yw3n25o
+2025-04-22 11:01:40,537 ERROR   MainThread:1459400 [jupyter.py:save_history():450] Run pip install nbformat to save notebook history
+2025-04-22 11:01:40,537 INFO    MainThread:1459400 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-22 11:01:40,537 INFO    MainThread:1459400 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-04-22 11:01:40,537 INFO    MainThread:1459400 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-04-22 11:01:40,539 INFO    MainThread:1459400 [wandb_run.py:_restore():2322] restore
+2025-04-22 11:01:40,539 INFO    MainThread:1459400 [wandb_run.py:_restore():2328] restore done
+2025-04-22 11:01:41,310 INFO    MainThread:1459400 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-04-22 11:01:41,310 INFO    MainThread:1459400 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-04-22 11:01:41,311 INFO    MainThread:1459400 [wandb_run.py:_footer_sync_info():3917] logging synced files

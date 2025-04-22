@@ -135,12 +135,12 @@ print(f"number of subjects in test: {len(subjects_test)}")
 
 # overwrite with smaller dataset for development (20% of original)
 fraction = 0.3
-subjects_train = subjects_train[:int(len(subjects_train)*fraction)]
-subjects_val = subjects_val[:int(len(subjects_val)*fraction)]
-subjects_test = subjects_test[:int(len(subjects_test)*fraction)]
-print(f"number of subjects in train: {len(subjects_train)}")
-print(f"number of subjects in val: {len(subjects_val)}")
-print(f"number of subjects in test: {len(subjects_test)}")
+subjects_train_small = subjects_train[:int(len(subjects_train)*fraction)]
+subjects_val_small = subjects_val[:int(len(subjects_val)*fraction)]
+subjects_test_small = subjects_test[:int(len(subjects_test)*fraction)]
+print(f"number of subjects in small train: {len(subjects_train_small)}")
+print(f"number of subjects in small val: {len(subjects_val_small)}")
+print(f"number of subjects in small test: {len(subjects_test_small)}")
 
 
 # ### Non-windowed dataset class
@@ -252,7 +252,6 @@ class SleepDataset(Dataset):
         labels = torch.tensor(subject['labels'], dtype=torch.long)
 
         data = forward_fill(data) # fill NaNs with previous values
-        labels = forward_fill(labels) # fill NaNs with previous values
         return data, labels
 
 
@@ -408,7 +407,6 @@ class SleepChunkDataset(Dataset):
         labels = torch.tensor(chunk['labels'], dtype=torch.long)
         # Forward fill to replace any NaN values with the previous valid value.
         data = forward_fill(data)
-        labels = forward_fill(labels.float()).long()
         return data, labels
 
 
@@ -517,6 +515,8 @@ print(f"Class weights: {class_weights}")
 
 
 # ## CNN downsampling approach
+
+# ### Model Definition
 
 # In[ ]:
 
@@ -752,6 +752,8 @@ class CNNClassifier(pl.LightningModule):
 
 
 
+# ### Shape Demo
+
 # In[ ]:
 
 
@@ -781,41 +783,7 @@ print(temp_input.shape[0] / combined_output.shape[0])
 wandb.finish()
 
 
-# In[ ]:
-
-
-# Train the combined model
-wandb_logger = WandbLogger(project="sleep_stage_classification")
-checkpoint_callback = ModelCheckpoint(
-    monitor='val_loss',
-    dirpath='checkpoints/',
-    filename='best-checkpoint',
-    save_top_k=1,
-    mode='min'
-)
-early_stop_callback = EarlyStopping(
-    monitor='val_loss',
-    patience=3,
-    verbose=True,
-    mode='min'
-)
-trainer = pl.Trainer(
-    max_epochs=50,
-    #fast_dev_run=True,
-    devices=1,
-    accelerator='gpu',
-    logger=wandb_logger,
-    callbacks=[checkpoint_callback, early_stop_callback]
-)
-model = OnlineSleepStagingModel(in_channels=6, cnn_output_channels=32, lstm_hidden_size=128, num_layers=2, num_sleep_stages=5, learning_rate=1e-3, class_weights=weight_tensor) #no class weights for now
-train_loader = DataLoader(train_chunk_dataset, batch_size=8, shuffle=True)
-val_loader = DataLoader(val_chunk_dataset, batch_size=8, shuffle=False)
-trainer.fit(model, train_loader, val_loader)
-wandb.finish()
-# Load the best model
-best_model_path = checkpoint_callback.best_model_path
-best_model = OnlineSleepStagingModel.load_from_checkpoint(best_model_path)
-
+# ### Hyperparameter Optimization
 
 # In[ ]:
 
@@ -870,6 +838,56 @@ print(f"  Value: {best_trial.value}")
 print("  Params:")
 for key, value in best_trial.params.items():
     print(f"    {key}: {value}")
+
+best_cnn_output_channels = best_trial.params["cnn_output_channels"]
+best_lstm_hidden_size = best_trial.params["lstm_hidden_size"]
+best_learning_rate = best_trial.params["learning_rate"]
+
+
+# ### Model Training
+
+# In[ ]:
+
+
+# Train the combined model
+wandb_logger = WandbLogger(project="sleep_stage_classification")
+checkpoint_callback = ModelCheckpoint(
+    monitor='val_loss',
+    dirpath='checkpoints/',
+    filename='best-checkpoint',
+    save_top_k=1,
+    mode='min'
+)
+early_stop_callback = EarlyStopping(
+    monitor='val_loss',
+    patience=3,
+    verbose=True,
+    mode='min'
+)
+trainer = pl.Trainer(
+    max_epochs=50,
+    #fast_dev_run=True,
+    devices=1,
+    accelerator='gpu',
+    logger=wandb_logger,
+    callbacks=[checkpoint_callback, early_stop_callback]
+)
+model = OnlineSleepStagingModel(
+    in_channels=6,
+    cnn_output_channels=best_cnn_output_channels, 
+    lstm_hidden_size=best_lstm_hidden_size, 
+    num_layers=2, 
+    num_sleep_stages=5, 
+    learning_rate=best_learning_rate, 
+    class_weights=weight_tensor) 
+
+train_loader = DataLoader(train_chunk_dataset, batch_size=8, shuffle=True)
+val_loader = DataLoader(val_chunk_dataset, batch_size=8, shuffle=False)
+trainer.fit(model, train_loader, val_loader)
+wandb.finish()
+# Load the best model
+best_model_path = checkpoint_callback.best_model_path
+best_model = OnlineSleepStagingModel.load_from_checkpoint(best_model_path)
 
 
 # ## CNN To Sleep Transformer approach
@@ -1109,30 +1127,6 @@ wandb.finish()
 best_model_path = checkpoint_callback.best_model_path
 
 
-# In[ ]:
-
-
-# project overview
-# construct dataset class
-# - train CNN -> LSTM sleep staging model with causal conv and unidirectional LSTM
-# - train CNN -> LSTM sleep staging model with non-causal conv and bidirectional LSTM
-# - compare performance at 64Hz
-# - compare performance and computational cost at lower sampling rates
-
-# unstructured notes
-# - likely best to combine ACC columns into a single variable. Can't imagine they offer much additional information
-# - CNN model should use 2D CNNs to extract features across both channels and short-term time windows
-# - will need to pad data on both sides to ensure input and output sequences for the CNN are the same length
-
-
-# CNN model - input: seq_len x num_channels -> output: seq_len x hidden_size
-
-
-# LSTM model - input: seq_len x hidden_size -> output: seq_len x num_classes
-
-
-
-
 # ## ACC aware CNN
 
 # ### Mixed Frequency Dataset Class
@@ -1300,12 +1294,13 @@ class MixedFreqDataset(Dataset):
         # forward‑fill each
         non_acc = forward_fill(non_acc)
         acc     = forward_fill(acc.unsqueeze(1)).squeeze(1)
-        labels  = forward_fill(labels.float()).long()
 
         return non_acc, acc, labels
 
 
-# In[70]:
+# ### Construct mixed frequency datasets
+
+# In[ ]:
 
 
 non_acc_freq = 0.2
@@ -1337,8 +1332,33 @@ test_dataset_mixed = MixedFreqDataset(subjects_list=subjects_test,
                                  debug=False)
 print(f"Total samples in test dataset: {len(test_dataset_mixed)}")
 
+train_dataset_mixed_small = MixedFreqDataset(subjects_list=subjects_train_small,
+                                 data_dir=datadir_64Hz,
+                                 chunk_duration=chunk_duration,
+                                 chunk_stride=chunk_stride,
+                                 downsample_freq=non_acc_freq, # downsample to 8Hz
+                                 acc_freq=acc_freq,
+                                 debug=False)
+print(f"Total samples in train dataset small: {len(train_dataset_mixed_small)}")
+val_dataset_mixed_small = MixedFreqDataset(subjects_list=subjects_val_small,
+                                 data_dir=datadir_64Hz,
+                                 chunk_duration=chunk_duration,
+                                 chunk_stride=chunk_stride,
+                                 downsample_freq=non_acc_freq, # downsample to 8Hz
+                                 acc_freq=acc_freq,
+                                 debug=False)
+print(f"Total samples in val dataset small: {len(val_dataset_mixed_small)}")
+test_dataset_mixed_small = MixedFreqDataset(subjects_list=subjects_test_small,
+                                 data_dir=datadir_64Hz,
+                                 chunk_duration=chunk_duration,
+                                 chunk_stride=chunk_stride,
+                                 downsample_freq=non_acc_freq, # downsample to 8Hz
+                                 acc_freq=acc_freq,
+                                 debug=False)
+print(f"Total samples in test dataset small: {len(test_dataset_mixed_small)}")
 
-# In[68]:
+
+# In[ ]:
 
 
 class ACCFeatureExtractorCNN(nn.Module):
@@ -1504,21 +1524,29 @@ class ACCAwareSleepStager(pl.LightningModule):
 
         # calculate accuracy
         predictions = torch.argmax(y_hat_flat, dim=1)
-        correct = (predictions == labels_flat).sum().item()
-        total = labels_flat.numel()
-        acc = correct / total if total > 0 else 0
+        mask = labels_flat != -1
+        masked_preds = predictions[mask]
+        masked_labels = labels_flat[mask]
+        if masked_labels.numel() > 0:
+            acc = (masked_preds == masked_labels).float().mean().item()
+        else:
+            acc = 0.0
 
         # calculate cohen's kappa
         mask = labels_flat != -1
         y_valid = labels_flat[mask]
         preds_valid = predictions[mask]
-        ckappa = self.kappa(preds_valid, y_valid)
+        if y_valid.numel() > 0:
+            ckappa = self.kappa(preds_valid, y_valid)
+        else:
+            ckappa = torch.tensor(0.0, device=self.device)
+
         # log metrics
         self.log("val_loss", loss, prog_bar=True)
         self.log("val_acc",  acc,  prog_bar=True)
         self.log("val_cohen_kappa", ckappa, prog_bar=True)
 
-
+        self.kappa.reset()
 
         return {"val_loss": loss, "val_acc": acc}
 
@@ -1526,7 +1554,7 @@ class ACCAwareSleepStager(pl.LightningModule):
         return torch.optim.AdamW(self.parameters(), lr=self.lr)
 
 
-# In[71]:
+# In[ ]:
 
 
 # Demo
@@ -1553,9 +1581,9 @@ model = ACCAwareSleepStager(
 out = model(temp_non_acc.unsqueeze(0), temp_acc.unsqueeze(0).unsqueeze(2))
 
 
-# ### Class Weights
+# ### Get Class Weights
 
-# In[72]:
+# In[ ]:
 
 
 # get class weights for weighted loss
@@ -1576,58 +1604,17 @@ print(f"Class counts: {class_counts}")
 print(f"Class weights: {class_weights}")
 
 
+# ### Hyperparameter Optimization
+
 # In[ ]:
-
-
-# Train the acc aware model
-wandb_logger = WandbLogger(project="acc_aware_model")
-checkpoint_callback = ModelCheckpoint(
-    monitor='val_loss',
-    dirpath='checkpoints/',
-    filename='best-checkpoint',
-    save_top_k=1,
-    mode='min'
-)
-early_stop_callback = EarlyStopping(
-    monitor='val_loss',
-    patience=3,
-    verbose=True,
-    mode='min'
-)
-trainer = pl.Trainer(
-    max_epochs=20,
-    devices=1,
-    accelerator='gpu',
-    logger=wandb_logger,
-    callbacks=[checkpoint_callback, early_stop_callback]
-)
-model = ACCAwareSleepStager(
-    non_acc_dim=5,
-    cnn_output_channels=32,
-    lstm_hidden_size=128,
-    lstm_layers=2,
-    num_sleep_stages=5,
-    lr=1e-4,
-    weight_tensor=torch.tensor(class_weights, dtype=torch.float32),
-)
-
-train_loader = DataLoader(train_dataset_mixed, batch_size=4, shuffle=True)
-val_loader = DataLoader(val_dataset_mixed, batch_size=4, shuffle=False)
-trainer.fit(model, train_loader, val_loader)
-wandb.finish()
-# Load the best model
-best_model_path = checkpoint_callback.best_model_path
-
-
-# In[73]:
 
 
 import optuna
 
 def objective(trial):
     # Sample hyperparameters
-    cnn_output_channels = trial.suggest_categorical("cnn_output_channels", [8, 16, 32, 64])
-    lstm_hidden_size = trial.suggest_categorical("lstm_hidden_size", [32, 64, 128])
+    cnn_output_channels = trial.suggest_categorical("cnn_output_channels", [8, 16, 32, 64, 128])
+    lstm_hidden_size = trial.suggest_categorical("lstm_hidden_size", [32, 64, 128, 256])
     num_layers = 2
     learning_rate = trial.suggest_loguniform("learning_rate", 1e-5, 1e-2)
 
@@ -1650,7 +1637,8 @@ def objective(trial):
     devices=1,
     accelerator='gpu',
     logger=wandb_logger,
-    callbacks=[checkpoint_callback, early_stop_callback]
+    callbacks=[checkpoint_callback, early_stop_callback],
+    log_every_n_steps=2,
     )
     model = ACCAwareSleepStager(
     non_acc_dim=5,
@@ -1662,18 +1650,67 @@ def objective(trial):
     weight_tensor=torch.tensor(class_weights, dtype=torch.float32),
     )
 
-    train_loader = DataLoader(train_dataset_mixed, batch_size=4, shuffle=True)
-    val_loader = DataLoader(val_dataset_mixed, batch_size=4, shuffle=False)
+    train_loader = DataLoader(train_dataset_mixed_small, batch_size=8, shuffle=True)
+    val_loader = DataLoader(val_dataset_mixed_small, batch_size=8, shuffle=False)
     trainer.fit(model, train_loader, val_loader)
     wandb.finish()
     return trainer.callback_metrics["val_loss"].item()
 
 study = optuna.create_study(direction="minimize")
-study.optimize(objective, n_trials=10)
+study.optimize(objective, n_trials=100)
 best_trial = study.best_trial
 print("Best trial:")
 print(f"  Value: {best_trial.value}")
 print("  Params:")
 for key, value in best_trial.params.items():
     print(f"    {key}: {value}")
+
+best_cnn_output_channels = best_trial.params["cnn_output_channels"]
+best_lstm_hidden_size = best_trial.params["lstm_hidden_size"]
+best_learning_rate = best_trial.params["learning_rate"]
+
+
+# ### Train Model
+
+# In[ ]:
+
+
+# Train the acc aware model
+wandb_logger = WandbLogger(project="acc_aware_model")
+checkpoint_callback = ModelCheckpoint(
+    monitor='val_loss',
+    dirpath='checkpoints/',
+    filename='best-checkpoint',
+    save_top_k=1,
+    mode='min'
+)
+early_stop_callback = EarlyStopping(
+    monitor='val_loss',
+    patience=3,
+    verbose=True,
+    mode='min'
+)
+trainer = pl.Trainer(
+    max_epochs=100,
+    devices=1,
+    accelerator='gpu',
+    logger=wandb_logger,
+    callbacks=[checkpoint_callback, early_stop_callback]
+)
+model = ACCAwareSleepStager( # cnn_output 32, lstm_hidden 128, lr 1e-4 did ok
+    non_acc_dim=5,
+    cnn_output_channels=best_cnn_output_channels,
+    lstm_hidden_size=best_lstm_hidden_size,
+    lstm_layers=2,
+    num_sleep_stages=5,
+    lr=best_learning_rate,
+    weight_tensor=torch.tensor(class_weights, dtype=torch.float32),
+)
+
+train_loader = DataLoader(train_dataset_mixed, batch_size=8, shuffle=True)
+val_loader = DataLoader(val_dataset_mixed, batch_size=8, shuffle=False)
+trainer.fit(model, train_loader, val_loader)
+wandb.finish()
+# Load the best model
+best_model_path = checkpoint_callback.best_model_path
 

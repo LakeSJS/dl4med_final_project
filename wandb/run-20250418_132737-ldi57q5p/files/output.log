@@ -1,0 +1,107 @@
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:654: Checkpoint directory /gpfs/data/oermannlab/users/slj9342/dl4med_final_project/checkpoints exists and is not empty.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name       | Type                   | Params | Mode
+--------------------------------------------------------------
+0 | acc_cnn    | ACCFeatureExtractorCNN | 205 K  | train
+1 | lstm       | LSTM                   | 84.2 K | train
+2 | classifier | Linear                 | 325    | train
+3 | criterion  | CrossEntropyLoss       | 0      | train
+4 | kappa      | MulticlassCohenKappa   | 0      | train
+--------------------------------------------------------------
+289 K     Trainable params
+0         Non-trainable params
+289 K     Total params
+1.160     Total estimated model params size (MB)
+17        Modules in train mode
+0         Modules in eval mode
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'val_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=15` in the `DataLoader` to improve performance.
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'train_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=15` in the `DataLoader` to improve performance.
+Metric val_loss improved. New best score: 1.634
+Metric val_loss improved by 0.000 >= min_delta = 0.0. New best score: 1.633
+Metric val_loss improved by 0.000 >= min_delta = 0.0. New best score: 1.633
+Metric val_loss improved by 0.000 >= min_delta = 0.0. New best score: 1.633
+Metric val_loss improved by 0.000 >= min_delta = 0.0. New best score: 1.633
+Metric val_loss improved by 0.000 >= min_delta = 0.0. New best score: 1.632
+Metric val_loss improved by 0.000 >= min_delta = 0.0. New best score: 1.632
+Metric val_loss improved by 0.000 >= min_delta = 0.0. New best score: 1.632
+Metric val_loss improved by 0.000 >= min_delta = 0.0. New best score: 1.632
+Metric val_loss improved by 0.000 >= min_delta = 0.0. New best score: 1.631
+Metric val_loss improved by 0.000 >= min_delta = 0.0. New best score: 1.631
+Metric val_loss improved by 0.000 >= min_delta = 0.0. New best score: 1.631
+Metric val_loss improved by 0.000 >= min_delta = 0.0. New best score: 1.631
+Metric val_loss improved by 0.000 >= min_delta = 0.0. New best score: 1.630
+Metric val_loss improved by 0.000 >= min_delta = 0.0. New best score: 1.630
+Metric val_loss improved by 0.000 >= min_delta = 0.0. New best score: 1.630
+
+Detected KeyboardInterrupt, attempting graceful shutdown ...
+[W 2025-04-18 13:47:40,074] Trial 14 failed with parameters: {'cnn_output_channels': 128, 'lstm_hidden_size': 64, 'learning_rate': 1.093559116803562e-05} because of the following error: NameError("name 'exit' is not defined").
+Traceback (most recent call last):
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/trainer/call.py", line 48, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/trainer/trainer.py", line 599, in _fit_impl
+    self._run(model, ckpt_path=ckpt_path)
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/trainer/trainer.py", line 1012, in _run
+    results = self._run_stage()
+              ^^^^^^^^^^^^^^^^^
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/trainer/trainer.py", line 1056, in _run_stage
+    self.fit_loop.run()
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/loops/fit_loop.py", line 216, in run
+    self.advance()
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/loops/fit_loop.py", line 455, in advance
+    self.epoch_loop.run(self._data_fetcher)
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/loops/training_epoch_loop.py", line 150, in run
+    self.advance(data_fetcher)
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/loops/training_epoch_loop.py", line 282, in advance
+    batch, _, __ = next(data_fetcher)
+                   ^^^^^^^^^^^^^^^^^^
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/loops/fetchers.py", line 134, in __next__
+    batch = super().__next__()
+            ^^^^^^^^^^^^^^^^^^
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/loops/fetchers.py", line 61, in __next__
+    batch = next(self.iterator)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/utilities/combined_loader.py", line 341, in __next__
+    out = next(self._iterator)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/utilities/combined_loader.py", line 78, in __next__
+    out[i] = next(self.iterators[i])
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 708, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 764, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/torch/utils/data/_utils/fetch.py", line 52, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "/tmp/ipykernel_3737080/329859803.py", line 160, in __getitem__
+    acc     = forward_fill(acc.unsqueeze(1)).squeeze(1)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_3737080/329859803.py", line None, in forward_fill
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/optuna/study/_optimize.py", line 197, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/tmp/ipykernel_3737080/2331645687.py", line 44, in objective
+    trainer.fit(model, train_loader, val_loader)
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/trainer/trainer.py", line 561, in fit
+    call._call_and_handle_interrupt(
+  File "/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/trainer/call.py", line 65, in _call_and_handle_interrupt
+    exit(1)
+    ^^^^
+NameError: name 'exit' is not defined
+[W 2025-04-18 13:47:40,082] Trial 14 failed with value None.
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/lightning_fabric/plugins/environments/slurm.py:204: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python /gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4m ...
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs

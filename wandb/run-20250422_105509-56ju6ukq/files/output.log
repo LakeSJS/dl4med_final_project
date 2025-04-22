@@ -1,0 +1,28 @@
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name       | Type                   | Params | Mode
+--------------------------------------------------------------
+0 | acc_cnn    | ACCFeatureExtractorCNN | 172 K  | train
+1 | lstm       | LSTM                   | 599 K  | train
+2 | classifier | Linear                 | 1.3 K  | train
+3 | kappa      | MulticlassCohenKappa   | 0      | train
+4 | criterion  | CrossEntropyLoss       | 0      | train
+--------------------------------------------------------------
+772 K     Trainable params
+0         Non-trainable params
+772 K     Total params
+3.091     Total estimated model params size (MB)
+17        Modules in train mode
+0         Modules in eval mode
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'val_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=15` in the `DataLoader` to improve performance.
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'train_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=15` in the `DataLoader` to improve performance.
+Metric val_cohen_kappa improved. New best score: 0.035
+Metric val_cohen_kappa improved by 0.043 >= min_delta = 0.0. New best score: 0.077
+Metric val_cohen_kappa improved by 0.004 >= min_delta = 0.0. New best score: 0.081
+Metric val_cohen_kappa improved by 0.017 >= min_delta = 0.0. New best score: 0.098
+Metric val_cohen_kappa improved by 0.024 >= min_delta = 0.0. New best score: 0.122
+Metric val_cohen_kappa improved by 0.009 >= min_delta = 0.0. New best score: 0.131
+Metric val_cohen_kappa improved by 0.006 >= min_delta = 0.0. New best score: 0.137
+Metric val_cohen_kappa improved by 0.005 >= min_delta = 0.0. New best score: 0.142
+Metric val_cohen_kappa improved by 0.007 >= min_delta = 0.0. New best score: 0.149
+Metric val_cohen_kappa improved by 0.020 >= min_delta = 0.0. New best score: 0.169

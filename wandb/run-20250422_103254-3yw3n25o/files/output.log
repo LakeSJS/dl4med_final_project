@@ -1,0 +1,74 @@
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:654: Checkpoint directory /gpfs/data/oermannlab/users/slj9342/dl4med_final_project/checkpoints exists and is not empty.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name        | Type                    | Params | Mode
+----------------------------------------------------------------
+0 | cnn         | ACCFeatureExtractorCNN  | 147 K  | train
+1 | transformer | SleepStagingTransformer | 1.6 M  | train
+2 | classifier  | Linear                  | 645    | train
+3 | loss_fn     | CrossEntropyLoss        | 0      | train
+4 | kappa       | MulticlassCohenKappa    | 0      | train
+----------------------------------------------------------------
+1.8 M     Trainable params
+0         Non-trainable params
+1.8 M     Total params
+7.165     Total estimated model params size (MB)
+145       Modules in train mode
+0         Modules in eval mode
+[DEBUG] ACC CNN output shape: torch.Size([10, 16, 5929])
+[DEBUG] NON_ACC input shape: torch.Size([10, 2400, 5])
+[DEBUG] Downsampling ACC features from 5929 to 2400
+[DEBUG] ACC features shape: torch.Size([10, 16, 2400])
+[DEBUG] non-ACC features shape: torch.Size([10, 2400, 5])
+[DEBUG] Transformer input shape: torch.Size([2400, 10, 21])
+Transformer Input shape: torch.Size([2400, 10, 21])
+After input projection shape: torch.Size([2400, 10, 128])
+After positional encoding shape: torch.Size([2400, 10, 128])
+After continuous wrapper shape: torch.Size([2400, 10, 128])
+[DEBUG] Transformer output shape: torch.Size([2400, 10, 128])
+[DEBUG] Transformer output after permute shape: torch.Size([10, 2400, 128])
+[DEBUG] Classifier output shape: torch.Size([10, 2400, 5])
+Non-acc shape: torch.Size([2400, 5])
+ACC shape: torch.Size([384000])
+Labels shape: torch.Size([2400])
+[DEBUG] ACC CNN output shape: torch.Size([1, 16, 5929])
+[DEBUG] NON_ACC input shape: torch.Size([1, 2400, 5])
+[DEBUG] Downsampling ACC features from 5929 to 2400
+[DEBUG] ACC features shape: torch.Size([1, 16, 2400])
+[DEBUG] non-ACC features shape: torch.Size([1, 2400, 5])
+[DEBUG] Transformer input shape: torch.Size([2400, 1, 21])
+Transformer Input shape: torch.Size([2400, 1, 21])
+After input projection shape: torch.Size([2400, 1, 128])
+After positional encoding shape: torch.Size([2400, 1, 128])
+After continuous wrapper shape: torch.Size([2400, 1, 128])
+[DEBUG] Transformer output shape: torch.Size([2400, 1, 128])
+[DEBUG] Transformer output after permute shape: torch.Size([1, 2400, 128])
+[DEBUG] Classifier output shape: torch.Size([1, 2400, 5])
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/lightning_fabric/plugins/environments/slurm.py:204: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python /gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4m ...
+Using 16bit Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/loggers/wandb.py:397: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:654: Checkpoint directory /gpfs/data/oermannlab/users/slj9342/dl4med_final_project/checkpoints exists and is not empty.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name        | Type                    | Params | Mode
+----------------------------------------------------------------
+0 | cnn         | ACCFeatureExtractorCNN  | 147 K  | train
+1 | transformer | SleepStagingTransformer | 1.6 M  | train
+2 | classifier  | Linear                  | 645    | train
+3 | criterion   | CrossEntropyLoss        | 0      | train
+4 | kappa       | MulticlassCohenKappa    | 0      | train
+----------------------------------------------------------------
+1.8 M     Trainable params
+0         Non-trainable params
+1.8 M     Total params
+7.165     Total estimated model params size (MB)
+145       Modules in train mode
+0         Modules in eval mode
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/loops/fit_loop.py:310: The number of training batches (5) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+Metric val_cohen_kappa improved. New best score: 0.001
+Metric val_cohen_kappa improved by 0.008 >= min_delta = 0.0. New best score: 0.009
+
+Detected KeyboardInterrupt, attempting graceful shutdown ...

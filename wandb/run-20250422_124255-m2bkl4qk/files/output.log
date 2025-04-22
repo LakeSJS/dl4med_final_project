@@ -1,0 +1,18 @@
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name        | Type                    | Params | Mode
+----------------------------------------------------------------
+0 | cnn         | ACCFeatureExtractorCNN  | 147 K  | train
+1 | transformer | SleepStagingTransformer | 1.4 M  | train
+2 | classifier  | Linear                  | 645    | train
+3 | criterion   | CrossEntropyLoss        | 0      | train
+4 | kappa       | MulticlassCohenKappa    | 0      | train
+----------------------------------------------------------------
+1.5 M     Trainable params
+0         Non-trainable params
+1.5 M     Total params
+5.997     Total estimated model params size (MB)
+145       Modules in train mode
+0         Modules in eval mode
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:476: Your `val_dataloader`'s sampler has shuffling enabled, it is strongly recommended that you turn shuffling off for val/test dataloaders.
+`Trainer.fit` stopped: `max_epochs=20` reached.

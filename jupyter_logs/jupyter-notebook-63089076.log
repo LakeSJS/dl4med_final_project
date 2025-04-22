@@ -60,3 +60,13 @@ localhost:8054/lab?token=  (prefix w/ https:// if using password)
 [I 2025-04-17 17:07:06.201 ServerApp] Restoring connection for 0a3b0bdc-a830-4266-a650-f46c103e67f2:87803677-79fe-4490-b185-e81c899cf086
 [W 2025-04-17 17:07:10.711 ServerApp] Nudge: attempt 10 on kernel 0a3b0bdc-a830-4266-a650-f46c103e67f2
 [W 2025-04-17 17:07:15.723 ServerApp] Nudge: attempt 20 on kernel 0a3b0bdc-a830-4266-a650-f46c103e67f2
+[I 2025-04-17 17:11:33.090 ServerApp] Kernel interrupted: 0a3b0bdc-a830-4266-a650-f46c103e67f2
+[I 2025-04-17 18:11:13.800 ServerApp] Kernel restarted: 0a3b0bdc-a830-4266-a650-f46c103e67f2
+[I 2025-04-17 18:11:13.808 ServerApp] Starting buffering for 0a3b0bdc-a830-4266-a650-f46c103e67f2:87803677-79fe-4490-b185-e81c899cf086
+[I 2025-04-17 18:11:13.817 ServerApp] Connecting to kernel 0a3b0bdc-a830-4266-a650-f46c103e67f2.
+[I 2025-04-17 18:11:13.817 ServerApp] Restoring connection for 0a3b0bdc-a830-4266-a650-f46c103e67f2:87803677-79fe-4490-b185-e81c899cf086
+[W 2025-04-17 18:11:18.328 ServerApp] Nudge: attempt 10 on kernel 0a3b0bdc-a830-4266-a650-f46c103e67f2
+[W 2025-04-17 18:11:23.339 ServerApp] Nudge: attempt 20 on kernel 0a3b0bdc-a830-4266-a650-f46c103e67f2
+[W 2025-04-17 18:11:24.539 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x1555500310d0>
+[I 2025-04-17 18:11:51.446 ServerApp] Starting buffering for 0a3b0bdc-a830-4266-a650-f46c103e67f2:87803677-79fe-4490-b185-e81c899cf086
+slurmstepd-a100-4031: error: *** JOB 63089076 ON a100-4031 CANCELLED AT 2025-04-19T09:13:08 DUE TO TIME LIMIT ***

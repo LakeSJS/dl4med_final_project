@@ -1,0 +1,17 @@
+{"time":"2025-04-21T23:43:05.045396846-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"wandb/run-20250421_234305-b2mjek1s/logs/debug-core.log"}
+{"time":"2025-04-21T23:43:05.15219169-04:00","level":"INFO","msg":"created new stream","id":"b2mjek1s"}
+{"time":"2025-04-21T23:43:05.152222122-04:00","level":"INFO","msg":"stream: started","id":"b2mjek1s"}
+{"time":"2025-04-21T23:43:05.152231997-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"b2mjek1s"}
+{"time":"2025-04-21T23:43:05.152234109-04:00","level":"INFO","msg":"handler: started","stream_id":"b2mjek1s"}
+{"time":"2025-04-21T23:43:05.152238561-04:00","level":"INFO","msg":"sender: started","stream_id":"b2mjek1s"}
+{"time":"2025-04-21T23:43:05.46755751-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-22T00:03:02.453588949-04:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/lakej98-nyu-langone-health/acc_aware_model/b2mjek1s/file_stream\": unexpected EOF"}
+{"time":"2025-04-22T00:23:35.063736913-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-22T00:23:35.064364733-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-22T00:23:35.494966486-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-22T00:23:35.620022721-04:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-04-22T00:23:35.622535682-04:00","level":"INFO","msg":"stream: closing","id":"b2mjek1s"}
+{"time":"2025-04-22T00:23:35.622549194-04:00","level":"INFO","msg":"handler: closed","stream_id":"b2mjek1s"}
+{"time":"2025-04-22T00:23:35.622559595-04:00","level":"INFO","msg":"sender: closed","stream_id":"b2mjek1s"}
+{"time":"2025-04-22T00:23:35.622557472-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"b2mjek1s"}
+{"time":"2025-04-22T00:23:35.623145893-04:00","level":"INFO","msg":"stream: closed","id":"b2mjek1s"}
