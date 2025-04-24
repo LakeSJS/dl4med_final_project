@@ -1,0 +1,54 @@
+
+Terminal command to create your ssh tunnel
+ssh -N -L 8393:a100-4027:8393 slj9342@bigpurple.nyumc.org
+Windows MobaXterm info
+Forwarded port:same as remote port
+Remote server: a100-4027
+Remote port: 8393
+SSH server: bigpurple.nyumc.org
+SSH login: slj9342
+SSH port: 22
+Use a Browser on your local machine to go to:
+localhost:8393/lab?token=  (prefix w/ https:// if using password)
+
+[I 2025-04-23 21:03:23.946 ServerApp] Extension package jupyter_lsp took 0.2449s to import
+[I 2025-04-23 21:03:24.408 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-04-23 21:03:24.412 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-04-23 21:03:24.417 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-04-23 21:03:24.421 ServerApp] notebook | extension was successfully linked.
+[I 2025-04-23 21:03:28.224 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-04-23 21:03:28.374 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-04-23 21:03:28.375 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-04-23 21:03:28.376 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-04-23 21:03:28.388 LabApp] JupyterLab extension loaded from /gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyterlab
+[I 2025-04-23 21:03:28.388 LabApp] JupyterLab application directory is /gpfs/data/oermannlab/users/slj9342/.local/share/jupyter/lab
+[I 2025-04-23 21:03:28.389 LabApp] Extension Manager is 'pypi'.
+[I 2025-04-23 21:03:28.802 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-04-23 21:03:28.805 ServerApp] notebook | extension was successfully loaded.
+[I 2025-04-23 21:03:28.806 ServerApp] Serving notebooks from local directory: /gpfs/data/oermannlab/users/slj9342/dl4med_final_project
+[I 2025-04-23 21:03:28.806 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2025-04-23 21:03:28.806 ServerApp] http://a100-4027:8393/tree?token=7c72de6b244bb3133d34ae79adf2a6151ef942816e4ce5b2
+[I 2025-04-23 21:03:28.806 ServerApp]     http://127.0.0.1:8393/tree?token=7c72de6b244bb3133d34ae79adf2a6151ef942816e4ce5b2
+[I 2025-04-23 21:03:28.806 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2025-04-23 21:03:28.814 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///gpfs/data/oermannlab/users/slj9342/.local/share/jupyter/runtime/jpserver-3109946-open.html
+    Or copy and paste one of these URLs:
+        http://a100-4027:8393/tree?token=7c72de6b244bb3133d34ae79adf2a6151ef942816e4ce5b2
+        http://127.0.0.1:8393/tree?token=7c72de6b244bb3133d34ae79adf2a6151ef942816e4ce5b2
+[I 2025-04-23 21:03:28.849 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2025-04-23 21:04:21.652 ServerApp] 404 GET /hub/api (@192.168.0.104) 74.49ms referer=None
+[I 2025-04-23 21:04:21.656 ServerApp] 302 GET / (@192.168.0.104) 0.32ms
+[I 2025-04-23 21:04:21.659 JupyterNotebookApp] 302 GET /tree? (@192.168.0.104) 0.40ms
+[I 2025-04-23 21:04:31.098 ServerApp] User 74d6c8488655499386365b3a1221289c logged in.
+[I 2025-04-23 21:04:31.099 ServerApp] 302 POST /login? (74d6c8488655499386365b3a1221289c@192.168.0.104) 1.95ms
+[I 2025-04-23 21:04:38.027 ServerApp] Kernel started: e66f2c13-0eff-4fce-95a5-c5c3a53962f9
+[I 2025-04-23 21:04:48.252 ServerApp] Connecting to kernel e66f2c13-0eff-4fce-95a5-c5c3a53962f9.
+[I 2025-04-23 21:08:13.537 ServerApp] Kernel interrupted: e66f2c13-0eff-4fce-95a5-c5c3a53962f9
+[I 2025-04-23 21:08:29.797 ServerApp] Kernel restarted: e66f2c13-0eff-4fce-95a5-c5c3a53962f9
+[I 2025-04-23 21:08:29.801 ServerApp] Starting buffering for e66f2c13-0eff-4fce-95a5-c5c3a53962f9:0f83ebfb-8a8d-430e-b440-e31d553e79d5
+[I 2025-04-23 21:08:29.806 ServerApp] Connecting to kernel e66f2c13-0eff-4fce-95a5-c5c3a53962f9.
+[I 2025-04-23 21:08:29.806 ServerApp] Restoring connection for e66f2c13-0eff-4fce-95a5-c5c3a53962f9:0f83ebfb-8a8d-430e-b440-e31d553e79d5
+[W 2025-04-23 21:08:34.316 ServerApp] Nudge: attempt 10 on kernel e66f2c13-0eff-4fce-95a5-c5c3a53962f9
+[W 2025-04-23 21:08:39.326 ServerApp] Nudge: attempt 20 on kernel e66f2c13-0eff-4fce-95a5-c5c3a53962f9

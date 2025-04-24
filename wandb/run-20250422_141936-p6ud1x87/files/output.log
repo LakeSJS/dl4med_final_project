@@ -1,0 +1,20 @@
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name        | Type                    | Params | Mode
+----------------------------------------------------------------
+0 | cnn         | ACCFeatureExtractorCNN  | 172 K  | train
+1 | transformer | SleepStagingTransformer | 1.4 M  | train
+2 | classifier  | Linear                  | 645    | train
+3 | criterion   | CrossEntropyLoss        | 0      | train
+4 | kappa       | MulticlassCohenKappa    | 0      | train
+----------------------------------------------------------------
+1.5 M     Trainable params
+0         Non-trainable params
+1.5 M     Total params
+6.121     Total estimated model params size (MB)
+145       Modules in train mode
+0         Modules in eval mode
+Metric val_cohen_kappa improved. New best score: 0.000
+Metric val_cohen_kappa improved by 0.002 >= min_delta = 0.0. New best score: 0.002
+Metric val_cohen_kappa improved by 0.009 >= min_delta = 0.0. New best score: 0.011
+Metric val_cohen_kappa improved by 0.005 >= min_delta = 0.0. New best score: 0.016

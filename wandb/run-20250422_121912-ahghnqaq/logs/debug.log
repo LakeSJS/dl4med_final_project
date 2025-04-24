@@ -21,3 +21,10 @@ config: {'_wandb': {}}
 2025-04-22 12:19:15,416 INFO    MainThread:695563 [wandb_run.py:_redirect():2315] Redirects installed.
 2025-04-22 12:19:15,442 INFO    MainThread:695563 [wandb_init.py:init():1032] run started, returning control to user process
 2025-04-22 12:19:15,913 INFO    MainThread:695563 [wandb_run.py:_config_callback():1261] config_cb None None {'non_acc_dim': 5, 'cnn_output_channels': 64, 'lstm_hidden_size': 128, 'lstm_layers': 2, 'num_sleep_stages': 5, 'lr': 0.00127, 'weight_tensor': 'tensor([0.8743, 1.8962, 0.3848, 5.9221, 1.7810])', 'debug': False}
+2025-04-22 16:57:31,041 INFO    MainThread:695563 [wandb_run.py:_finish():2112] finishing run lakej98-nyu-langone-health/mixed_freq_cnn_lstm/ahghnqaq
+2025-04-22 16:57:31,042 INFO    MainThread:695563 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-04-22 16:57:31,042 INFO    MainThread:695563 [wandb_run.py:_restore():2322] restore
+2025-04-22 16:57:31,042 INFO    MainThread:695563 [wandb_run.py:_restore():2328] restore done
+2025-04-22 16:57:31,586 INFO    MainThread:695563 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-04-22 16:57:31,587 INFO    MainThread:695563 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-04-22 16:57:31,587 INFO    MainThread:695563 [wandb_run.py:_footer_sync_info():3917] logging synced files

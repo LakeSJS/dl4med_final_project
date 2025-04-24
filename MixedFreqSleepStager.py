@@ -281,8 +281,8 @@ print(f"number of subjects in small test: {len(subjects_test_small)}")
 
 non_acc_freq = 0.2
 acc_freq = 32
-chunk_duration = 600 # chunk duration in seconds
-chunk_stride = 300
+chunk_duration = 6000 # chunk duration in seconds
+chunk_stride = 1500 # chunk stride in seconds
 train_dataset_mixed = MixedFreqDataset(subjects_list=subjects_train,
                                  data_dir=datadir_64Hz,
                                  chunk_duration=chunk_duration,
@@ -703,7 +703,8 @@ trainer = pl.Trainer(
     logger=wandb_logger,
     log_every_n_steps=1,
     precision="16-mixed",
-    callbacks=[checkpoint_callback, early_stop_callback]
+    #callbacks=[checkpoint_callback, early_stop_callback]
+    callbacks=[checkpoint_callback] # not using early stopping for now
 )
 model = ACCAwareSleepStager( # cnn_output 32, lstm_hidden 128, lr 1e-4 did ok
     non_acc_dim=5,

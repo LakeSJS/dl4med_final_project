@@ -26,3 +26,7 @@ Metric val_cohen_kappa improved by 0.006 >= min_delta = 0.0. New best score: 0.1
 Metric val_cohen_kappa improved by 0.005 >= min_delta = 0.0. New best score: 0.142
 Metric val_cohen_kappa improved by 0.007 >= min_delta = 0.0. New best score: 0.149
 Metric val_cohen_kappa improved by 0.020 >= min_delta = 0.0. New best score: 0.169
+Metric val_cohen_kappa improved by 0.011 >= min_delta = 0.0. New best score: 0.180
+Metric val_cohen_kappa improved by 0.009 >= min_delta = 0.0. New best score: 0.189
+Metric val_cohen_kappa improved by 0.003 >= min_delta = 0.0. New best score: 0.191
+Monitored metric val_cohen_kappa did not improve in the last 15 records. Best score: 0.191. Signaling Trainer to stop.
