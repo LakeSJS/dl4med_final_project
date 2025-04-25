@@ -21,3 +21,48 @@ number of subjects in test: 10
 number of subjects in small train: 24
 number of subjects in small val: 3
 number of subjects in small test: 3
+number of chunks in train: 1050
+number of chunks in val: 130
+number of chunks in test: 134
+number of chunks in small train: 315
+number of chunks in small val: 39
+number of chunks in small test: 38
+temp_hf shape: torch.Size([192000, 5])
+temp_lf shape: torch.Size([1200, 5])
+temp_labels shape: torch.Size([1200])
+HF input shape: torch.Size([1, 192000, 5])
+LF input shape: torch.Size([1, 1200, 5])
+cnn output shape: torch.Size([1, 16, 2929])
+[DEBUG] cnn output length 2929 > lf output length 1200, downsampling
+[DEBUG] hf features shape: torch.Size([1, 16, 1200])
+[DEBUG] lf features shape: torch.Size([1, 1200, 5])
+[DEBUG] lstm input shape: torch.Size([1200, 1, 21])
+[DEBUG] lstm output shape: torch.Size([1200, 1, 128])
+[DEBUG] classifier output shape: torch.Size([1200, 1, 5])
+output shape: torch.Size([1200, 1, 5])
+HF input shape: torch.Size([1, 192000, 5])
+LF input shape: torch.Size([1, 1200, 5])
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/lightning_fabric/plugins/environments/slurm.py:204: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python /gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4m ...
+Using 16bit Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/loggers/wandb.py:397: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:654: Checkpoint directory /gpfs/data/oermannlab/users/slj9342/dl4med_final_project/checkpoints/mixed_freq_cnn_lstm exists and is not empty.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name       | Type                  | Params | Mode
+-------------------------------------------------------------
+0 | cnn        | HFFeatureExtractorCNN | 672 K  | train
+1 | lstm       | LSTM                  | 599 K  | train
+2 | classifier | Linear                | 1.3 K  | train
+3 | kappa      | MulticlassCohenKappa  | 0      | train
+4 | criterion  | CrossEntropyLoss      | 0      | train
+-------------------------------------------------------------
+1.3 M     Trainable params
+0         Non-trainable params
+1.3 M     Total params
+5.090     Total estimated model params size (MB)
+17        Modules in train mode
+0         Modules in eval mode
+`Trainer.fit` stopped: `max_epochs=100` reached.

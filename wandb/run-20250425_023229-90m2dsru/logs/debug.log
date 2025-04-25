@@ -1,0 +1,30 @@
+2025-04-25 02:32:29,687 INFO    MainThread:216178 [wandb_init.py:setup_run_log_directory():647] Logging user logs to ./wandb/run-20250425_023229-90m2dsru/logs/debug.log
+2025-04-25 02:32:29,687 INFO    MainThread:216178 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to ./wandb/run-20250425_023229-90m2dsru/logs/debug-internal.log
+2025-04-25 02:32:29,687 INFO    MainThread:216178 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x1553d9ce1090>
+2025-04-25 02:32:29,687 INFO    MainThread:216178 [wandb_init.py:init():761] calling init triggers
+2025-04-25 02:32:29,687 INFO    MainThread:216178 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-04-25 02:32:29,687 INFO    MainThread:216178 [wandb_init.py:init():784] starting backend
+2025-04-25 02:32:29,687 INFO    MainThread:216178 [wandb_init.py:init():788] sending inform_init request
+2025-04-25 02:32:29,687 INFO    MainThread:216178 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-25 02:32:29,688 INFO    MainThread:216178 [wandb_init.py:init():798] backend started and connected
+2025-04-25 02:32:29,691 INFO    MainThread:216178 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-04-25 02:32:29,697 INFO    MainThread:216178 [wandb_init.py:init():891] updated telemetry
+2025-04-25 02:32:29,719 INFO    MainThread:216178 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-04-25 02:32:30,131 INFO    MainThread:216178 [wandb_init.py:init():990] starting run threads in backend
+2025-04-25 02:32:30,964 INFO    MainThread:216178 [wandb_run.py:_console_start():2375] atexit reg
+2025-04-25 02:32:30,964 INFO    MainThread:216178 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-04-25 02:32:30,964 INFO    MainThread:216178 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-04-25 02:32:30,964 INFO    MainThread:216178 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-04-25 02:32:30,965 INFO    MainThread:216178 [wandb_init.py:init():1032] run started, returning control to user process
+2025-04-25 02:32:30,980 INFO    MainThread:216178 [wandb_run.py:_config_callback():1261] config_cb None None {'non_acc_dim': 5, 'cnn_output_channels': 64, 'lstm_hidden_size': 256, 'lstm_layers': 4, 'num_sleep_stages': 5, 'lr': 0.0007417449694148223, 'dropout': 0.38310734040328415, 'label_smoothing': 0.021755422917181348, 'weight_tensor': 'tensor([0.9454, 1.9613, 0.3690, 5.6372, 1.8345])', 'debug': False}
+2025-04-25 02:45:03,876 INFO    MainThread:216178 [wandb_run.py:_finish():2112] finishing run lakej98-nyu-langone-health/acc_aware_model/90m2dsru
+2025-04-25 02:45:03,877 ERROR   MainThread:216178 [jupyter.py:save_history():450] Run pip install nbformat to save notebook history
+2025-04-25 02:45:03,877 INFO    MainThread:216178 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-25 02:45:03,877 INFO    MainThread:216178 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-04-25 02:45:03,877 INFO    MainThread:216178 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-04-25 02:45:03,877 INFO    MainThread:216178 [wandb_run.py:_restore():2322] restore
+2025-04-25 02:45:03,877 INFO    MainThread:216178 [wandb_run.py:_restore():2328] restore done
+2025-04-25 02:45:04,704 INFO    MainThread:216178 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-04-25 02:45:04,705 INFO    MainThread:216178 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-04-25 02:45:04,705 INFO    MainThread:216178 [wandb_run.py:_footer_sync_info():3917] logging synced files

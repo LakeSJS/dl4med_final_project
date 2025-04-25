@@ -1,0 +1,36 @@
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:654: Checkpoint directory /gpfs/data/oermannlab/users/slj9342/dl4med_final_project/checkpoints exists and is not empty.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name       | Type                   | Params | Mode
+--------------------------------------------------------------
+0 | acc_cnn    | ACCFeatureExtractorCNN | 205 K  | train
+1 | lstm       | LSTM                   | 399 K  | train
+2 | classifier | Linear                 | 645    | train
+3 | kappa      | MulticlassCohenKappa   | 0      | train
+4 | criterion  | CrossEntropyLoss       | 0      | train
+--------------------------------------------------------------
+605 K     Trainable params
+0         Non-trainable params
+605 K     Total params
+2.423     Total estimated model params size (MB)
+17        Modules in train mode
+0         Modules in eval mode
+/tmp/ipykernel_216178/2393561881.py:168: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  non_acc = torch.tensor(c['non_acc'], dtype=torch.float32)
+/tmp/ipykernel_216178/2393561881.py:169: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  acc     = torch.tensor(c['acc'],     dtype=torch.float32)
+/tmp/ipykernel_216178/2393561881.py:170: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  labels  = torch.tensor(c['labels'],  dtype=torch.long)
+Metric val_loss improved. New best score: 1.881
+Metric val_loss improved by 0.011 >= min_delta = 0.0. New best score: 1.870
+Metric val_loss improved by 0.001 >= min_delta = 0.0. New best score: 1.869
+Metric val_loss improved by 0.009 >= min_delta = 0.0. New best score: 1.860
+Metric val_loss improved by 0.003 >= min_delta = 0.0. New best score: 1.858
+Metric val_loss improved by 0.015 >= min_delta = 0.0. New best score: 1.843
+Metric val_loss improved by 0.006 >= min_delta = 0.0. New best score: 1.838
+Metric val_loss improved by 0.012 >= min_delta = 0.0. New best score: 1.826
+Metric val_loss improved by 0.009 >= min_delta = 0.0. New best score: 1.817
+Metric val_loss improved by 0.021 >= min_delta = 0.0. New best score: 1.796
+Metric val_loss improved by 0.015 >= min_delta = 0.0. New best score: 1.780
+Metric val_loss improved by 0.015 >= min_delta = 0.0. New best score: 1.766
+`Trainer.fit` stopped: `max_epochs=30` reached.

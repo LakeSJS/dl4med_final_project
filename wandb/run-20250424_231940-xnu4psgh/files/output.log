@@ -1,0 +1,27 @@
+/gpfs/data/oermannlab/users/slj9342/.conda/envs/dl4med_25/lib/python3.11/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:654: Checkpoint directory /gpfs/data/oermannlab/users/slj9342/dl4med_final_project/checkpoints exists and is not empty.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name       | Type                   | Params | Mode
+--------------------------------------------------------------
+0 | acc_cnn    | ACCFeatureExtractorCNN | 205 K  | train
+1 | lstm       | LSTM                   | 8.7 M  | train
+2 | classifier | Linear                 | 2.6 K  | train
+3 | kappa      | MulticlassCohenKappa   | 0      | train
+4 | criterion  | CrossEntropyLoss       | 0      | train
+--------------------------------------------------------------
+8.9 M     Trainable params
+0         Non-trainable params
+8.9 M     Total params
+35.574    Total estimated model params size (MB)
+17        Modules in train mode
+0         Modules in eval mode
+/tmp/ipykernel_216178/2393561881.py:168: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  non_acc = torch.tensor(c['non_acc'], dtype=torch.float32)
+/tmp/ipykernel_216178/2393561881.py:169: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  acc     = torch.tensor(c['acc'],     dtype=torch.float32)
+/tmp/ipykernel_216178/2393561881.py:170: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  labels  = torch.tensor(c['labels'],  dtype=torch.long)
+Metric val_loss improved. New best score: 1.720
+Metric val_loss improved by 0.002 >= min_delta = 0.0. New best score: 1.718
+Metric val_loss improved by 0.041 >= min_delta = 0.0. New best score: 1.677
+Monitored metric val_loss did not improve in the last 10 records. Best score: 1.677. Signaling Trainer to stop.
