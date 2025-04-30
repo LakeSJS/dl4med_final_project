@@ -17,8 +17,8 @@ conda activate dl4med_25
 export TORCH_USE_CUDA_DSA=1
 
 # Run notebook
-jupyter nbconvert --to script MixedFreqSleepStager.ipynb --output MixedFreqSleepStager
-jupyter nbconvert --to notebook --execute --allow-errors MixedFreqSleepStager.ipynb --output MixedFreqSleepStager_executed.ipynb
+jupyter nbconvert --to script DualFreqSleepStager.ipynb --output DualFreqSleepStager
+jupyter nbconvert --to notebook --execute --allow-errors DualFreqSleepStager.ipynb --output DualFreqSleepStager_executed.ipynb
 
 # convert executed notebook to pdf
 #jupyter nbconvert --to pdf hw3_executed.ipynb --output-dir=../pdfs --PDFExporter.latex_command="['pdflatex', '{filename}', '-interaction=nonstopmode', '-output-directory={tempdir}']" --PDFExporter.verbose=True
