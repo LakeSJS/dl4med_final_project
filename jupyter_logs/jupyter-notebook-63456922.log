@@ -1,0 +1,291 @@
+
+Terminal command to create your ssh tunnel
+ssh -N -L 9901:a100-4032:9901 slj9342@bigpurple.nyumc.org
+Windows MobaXterm info
+Forwarded port:same as remote port
+Remote server: a100-4032
+Remote port: 9901
+SSH server: bigpurple.nyumc.org
+SSH login: slj9342
+SSH port: 22
+Use a Browser on your local machine to go to:
+localhost:9901/lab?token=  (prefix w/ https:// if using password)
+
+[I 2025-04-30 08:52:40.686 ServerApp] Extension package jupyter_lsp took 0.1972s to import
+[I 2025-04-30 08:52:41.219 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-04-30 08:52:41.222 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-04-30 08:52:41.226 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-04-30 08:52:41.230 ServerApp] notebook | extension was successfully linked.
+[I 2025-04-30 08:52:44.906 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-04-30 08:52:45.036 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-04-30 08:52:45.038 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-04-30 08:52:45.041 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-04-30 08:52:45.047 LabApp] JupyterLab extension loaded from /gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyterlab
+[I 2025-04-30 08:52:45.047 LabApp] JupyterLab application directory is /gpfs/data/oermannlab/users/slj9342/.local/share/jupyter/lab
+[I 2025-04-30 08:52:45.047 LabApp] Extension Manager is 'pypi'.
+[I 2025-04-30 08:52:45.414 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-04-30 08:52:45.417 ServerApp] notebook | extension was successfully loaded.
+[I 2025-04-30 08:52:45.417 ServerApp] Serving notebooks from local directory: /gpfs/data/oermannlab/users/slj9342/dl4med_final_project
+[I 2025-04-30 08:52:45.417 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2025-04-30 08:52:45.417 ServerApp] http://a100-4032:9901/tree?token=ec38c2bada2e1dbbe16c6eecd19fdd3213b0fefde95b2590
+[I 2025-04-30 08:52:45.417 ServerApp]     http://127.0.0.1:9901/tree?token=ec38c2bada2e1dbbe16c6eecd19fdd3213b0fefde95b2590
+[I 2025-04-30 08:52:45.417 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2025-04-30 08:52:45.422 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///gpfs/data/oermannlab/users/slj9342/.local/share/jupyter/runtime/jpserver-1083834-open.html
+    Or copy and paste one of these URLs:
+        http://a100-4032:9901/tree?token=ec38c2bada2e1dbbe16c6eecd19fdd3213b0fefde95b2590
+        http://127.0.0.1:9901/tree?token=ec38c2bada2e1dbbe16c6eecd19fdd3213b0fefde95b2590
+[I 2025-04-30 08:52:45.451 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2025-04-30 08:55:01.248 ServerApp] 404 GET /hub/api (@192.168.0.102) 58.15ms referer=None
+[I 2025-04-30 08:55:01.253 ServerApp] 302 GET / (@192.168.0.102) 0.27ms
+[I 2025-04-30 08:55:01.255 JupyterNotebookApp] 302 GET /tree? (@192.168.0.102) 0.32ms
+[I 2025-04-30 08:55:07.473 ServerApp] User aa180fabfe0a4a0299408ba2f36d695d logged in.
+[I 2025-04-30 08:55:07.474 ServerApp] 302 POST /login? (aa180fabfe0a4a0299408ba2f36d695d@192.168.0.102) 0.66ms
+[I 2025-04-30 08:55:23.036 ServerApp] Kernel started: 1d93a5e7-3ad5-4482-a697-b8574ed4e1b4
+[I 2025-04-30 08:55:33.204 ServerApp] Connecting to kernel 1d93a5e7-3ad5-4482-a697-b8574ed4e1b4.
+[W 2025-04-30 10:59:33.205 ServerApp] WebSocket ping timeout after 98127 ms.
+[W 2025-04-30 10:59:33.228 ServerApp] 
+[W 2025-04-30 10:59:33.430 ServerApp] 
+[W 2025-04-30 10:59:33.442 ServerApp] 
+[W 2025-04-30 10:59:33.442 ServerApp] 
+[W 2025-04-30 10:59:33.442 ServerApp] 
+[W 2025-04-30 10:59:33.656 ServerApp] 
+[W 2025-04-30 10:59:33.656 ServerApp] 
+[W 2025-04-30 10:59:33.657 ServerApp] 
+[W 2025-04-30 10:59:33.657 ServerApp] 
+[W 2025-04-30 10:59:33.772 ServerApp] 
+[W 2025-04-30 10:59:33.772 ServerApp] 
+[W 2025-04-30 10:59:33.772 ServerApp] 
+[W 2025-04-30 10:59:33.773 ServerApp] 
+[W 2025-04-30 10:59:33.773 ServerApp] 
+[W 2025-04-30 10:59:33.773 ServerApp] 
+[W 2025-04-30 10:59:33.774 ServerApp] 
+[W 2025-04-30 10:59:33.774 ServerApp] 
+[W 2025-04-30 10:59:33.774 ServerApp] 
+[W 2025-04-30 10:59:33.775 ServerApp] 
+[W 2025-04-30 10:59:33.775 ServerApp] 
+[W 2025-04-30 10:59:33.776 ServerApp] 
+[W 2025-04-30 10:59:33.776 ServerApp] 
+[W 2025-04-30 10:59:33.776 ServerApp] 
+[W 2025-04-30 10:59:33.777 ServerApp] 
+[W 2025-04-30 10:59:33.777 ServerApp] 
+[W 2025-04-30 10:59:33.777 ServerApp] 
+[W 2025-04-30 10:59:33.778 ServerApp] 
+[W 2025-04-30 10:59:33.778 ServerApp] 
+[W 2025-04-30 10:59:33.778 ServerApp] 
+[W 2025-04-30 10:59:33.779 ServerApp] 
+[W 2025-04-30 10:59:33.779 ServerApp] 
+[W 2025-04-30 10:59:33.802 ServerApp] 
+[W 2025-04-30 10:59:33.803 ServerApp] 
+[W 2025-04-30 10:59:33.803 ServerApp] 
+[W 2025-04-30 10:59:33.803 ServerApp] 
+[W 2025-04-30 10:59:33.804 ServerApp] 
+[W 2025-04-30 10:59:33.804 ServerApp] 
+[W 2025-04-30 10:59:33.804 ServerApp] 
+[W 2025-04-30 10:59:33.805 ServerApp] 
+[W 2025-04-30 10:59:33.805 ServerApp] 
+[W 2025-04-30 10:59:33.828 ServerApp] 
+[W 2025-04-30 10:59:33.832 ServerApp] 
+[W 2025-04-30 10:59:33.832 ServerApp] 
+[W 2025-04-30 10:59:33.873 ServerApp] 
+[W 2025-04-30 10:59:33.873 ServerApp] 
+[W 2025-04-30 10:59:33.874 ServerApp] 
+[W 2025-04-30 10:59:33.917 ServerApp] 
+[W 2025-04-30 10:59:33.917 ServerApp] 
+[W 2025-04-30 10:59:33.918 ServerApp] 
+[W 2025-04-30 10:59:33.965 ServerApp] 
+[W 2025-04-30 10:59:33.965 ServerApp] 
+[W 2025-04-30 10:59:33.966 ServerApp] 
+[W 2025-04-30 10:59:33.983 ServerApp] 
+[W 2025-04-30 10:59:33.983 ServerApp] 
+[W 2025-04-30 10:59:33.983 ServerApp] 
+[W 2025-04-30 10:59:33.995 ServerApp] 
+[W 2025-04-30 10:59:33.996 ServerApp] 
+[W 2025-04-30 10:59:33.996 ServerApp] 
+[W 2025-04-30 10:59:33.996 ServerApp] 
+[W 2025-04-30 10:59:33.997 ServerApp] 
+[W 2025-04-30 10:59:33.997 ServerApp] 
+[W 2025-04-30 10:59:33.997 ServerApp] 
+[W 2025-04-30 10:59:34.224 ServerApp] 
+[W 2025-04-30 10:59:34.225 ServerApp] 
+[W 2025-04-30 10:59:34.225 ServerApp] 
+[W 2025-04-30 10:59:34.225 ServerApp] 
+[W 2025-04-30 10:59:34.450 ServerApp] 
+[W 2025-04-30 10:59:34.451 ServerApp] 
+[W 2025-04-30 10:59:34.451 ServerApp] 
+[W 2025-04-30 10:59:34.451 ServerApp] 
+[W 2025-04-30 10:59:34.677 ServerApp] 
+[W 2025-04-30 10:59:34.678 ServerApp] 
+[W 2025-04-30 10:59:34.678 ServerApp] 
+[W 2025-04-30 10:59:34.678 ServerApp] 
+[W 2025-04-30 10:59:34.903 ServerApp] 
+[W 2025-04-30 10:59:34.904 ServerApp] 
+[W 2025-04-30 10:59:34.904 ServerApp] 
+[W 2025-04-30 10:59:34.904 ServerApp] 
+[W 2025-04-30 10:59:35.129 ServerApp] 
+[W 2025-04-30 10:59:35.130 ServerApp] 
+[W 2025-04-30 10:59:35.130 ServerApp] 
+[W 2025-04-30 10:59:35.130 ServerApp] 
+[W 2025-04-30 10:59:35.356 ServerApp] 
+[W 2025-04-30 10:59:35.357 ServerApp] 
+[W 2025-04-30 10:59:35.357 ServerApp] 
+[W 2025-04-30 10:59:35.357 ServerApp] 
+[W 2025-04-30 10:59:35.582 ServerApp] 
+[W 2025-04-30 10:59:35.583 ServerApp] 
+[W 2025-04-30 10:59:35.583 ServerApp] 
+[W 2025-04-30 10:59:35.583 ServerApp] 
+[W 2025-04-30 10:59:35.819 ServerApp] 
+[W 2025-04-30 10:59:35.819 ServerApp] 
+[W 2025-04-30 10:59:35.820 ServerApp] 
+[W 2025-04-30 10:59:35.820 ServerApp] 
+[W 2025-04-30 10:59:36.034 ServerApp] 
+[W 2025-04-30 10:59:36.035 ServerApp] 
+[W 2025-04-30 10:59:36.035 ServerApp] 
+[W 2025-04-30 10:59:36.035 ServerApp] 
+[W 2025-04-30 10:59:36.260 ServerApp] 
+[W 2025-04-30 10:59:36.261 ServerApp] 
+[W 2025-04-30 10:59:36.261 ServerApp] 
+[W 2025-04-30 10:59:36.261 ServerApp] 
+[W 2025-04-30 10:59:36.497 ServerApp] 
+[W 2025-04-30 10:59:36.497 ServerApp] 
+[W 2025-04-30 10:59:36.498 ServerApp] 
+[W 2025-04-30 10:59:36.498 ServerApp] 
+[W 2025-04-30 10:59:36.711 ServerApp] 
+[W 2025-04-30 10:59:36.712 ServerApp] 
+[W 2025-04-30 10:59:36.712 ServerApp] 
+[W 2025-04-30 10:59:36.712 ServerApp] 
+[W 2025-04-30 10:59:36.938 ServerApp] 
+[W 2025-04-30 10:59:36.939 ServerApp] 
+[W 2025-04-30 10:59:36.939 ServerApp] 
+[W 2025-04-30 10:59:36.939 ServerApp] 
+[W 2025-04-30 10:59:37.164 ServerApp] 
+[W 2025-04-30 10:59:37.165 ServerApp] 
+[W 2025-04-30 10:59:37.165 ServerApp] 
+[W 2025-04-30 10:59:37.165 ServerApp] 
+[W 2025-04-30 10:59:37.391 ServerApp] 
+[W 2025-04-30 10:59:37.392 ServerApp] 
+[W 2025-04-30 10:59:37.392 ServerApp] 
+[W 2025-04-30 10:59:37.392 ServerApp] 
+[W 2025-04-30 10:59:37.617 ServerApp] 
+[W 2025-04-30 10:59:37.618 ServerApp] 
+[W 2025-04-30 10:59:37.618 ServerApp] 
+[W 2025-04-30 10:59:37.618 ServerApp] 
+[W 2025-04-30 10:59:37.844 ServerApp] 
+[W 2025-04-30 10:59:37.845 ServerApp] 
+[W 2025-04-30 10:59:37.845 ServerApp] 
+[W 2025-04-30 10:59:37.845 ServerApp] 
+[W 2025-04-30 10:59:38.081 ServerApp] 
+[W 2025-04-30 10:59:38.081 ServerApp] 
+[W 2025-04-30 10:59:38.082 ServerApp] 
+[W 2025-04-30 10:59:38.082 ServerApp] 
+[I 2025-04-30 10:59:38.228 ServerApp] Starting buffering for 1d93a5e7-3ad5-4482-a697-b8574ed4e1b4:ddf7e655-a050-4a29-8d21-a5e57373cf56
+[I 2025-04-30 10:59:38.511 ServerApp] Connecting to kernel 1d93a5e7-3ad5-4482-a697-b8574ed4e1b4.
+[I 2025-04-30 10:59:38.511 ServerApp] Restoring connection for 1d93a5e7-3ad5-4482-a697-b8574ed4e1b4:ddf7e655-a050-4a29-8d21-a5e57373cf56
+[I 2025-04-30 10:59:38.511 ServerApp] Replaying 4 buffered messages
+[I 2025-04-30 15:57:08.637 ServerApp] Starting buffering for 1d93a5e7-3ad5-4482-a697-b8574ed4e1b4:ddf7e655-a050-4a29-8d21-a5e57373cf56
+[I 2025-05-01 12:37:06.813 ServerApp] 302 GET / (@192.168.0.102) 2.66ms
+[I 2025-05-01 12:37:07.703 JupyterNotebookApp] 302 GET /tree? (@192.168.0.102) 0.66ms
+[W 2025-05-01 12:38:03.111 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-05-01 12:38:03.137 ServerApp] 403 GET /api/kernelspecs?1746117483102 (@192.168.0.102) 27.00ms referer=None
+[W 2025-05-01 12:38:03.150 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-05-01 12:38:03.151 ServerApp] 403 GET /api/kernels?1746117483106 (@192.168.0.102) 40.07ms referer=None
+[W 2025-05-01 12:38:03.151 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-05-01 12:38:03.151 ServerApp] 403 GET /api/kernels?1746117483103 (@192.168.0.102) 40.35ms referer=None
+[W 2025-05-01 12:38:03.151 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-05-01 12:38:03.152 ServerApp] 403 GET /api/sessions?1746117483107 (@192.168.0.102) 41.19ms referer=None
+[W 2025-05-01 12:38:03.153 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-05-01 12:38:03.153 ServerApp] 403 GET /api/kernelspecs?1746117483140 (@192.168.0.102) 0.52ms referer=None
+[I 2025-05-01 12:38:03.156 ServerApp] 302 GET / (@192.168.0.102) 0.19ms
+[I 2025-05-01 12:38:03.159 JupyterNotebookApp] 302 GET /tree? (@192.168.0.102) 0.27ms
+[W 2025-05-01 12:38:04.326 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-05-01 12:38:04.327 ServerApp] 403 GET /api/kernelspecs?1746117484322 (@192.168.0.102) 0.80ms referer=None
+[W 2025-05-01 12:38:04.329 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-05-01 12:38:04.329 ServerApp] 403 GET /api/kernels?1746117484323 (@192.168.0.102) 0.58ms referer=None
+[W 2025-05-01 12:38:04.330 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-05-01 12:38:04.330 ServerApp] 403 GET /api/kernels?1746117484325 (@192.168.0.102) 0.48ms referer=None
+[W 2025-05-01 12:38:04.330 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-05-01 12:38:04.332 ServerApp] 403 GET /api/sessions?1746117484327 (@192.168.0.102) 1.46ms referer=None
+[W 2025-05-01 12:38:04.334 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-05-01 12:38:04.334 ServerApp] 403 GET /api/kernelspecs?1746117484330 (@192.168.0.102) 0.47ms referer=None

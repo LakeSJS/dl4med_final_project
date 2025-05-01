@@ -1,8 +1,9 @@
-# Weights & Biases run files
+
 wandb/
-
-# PyTorch Lightning checkpoints
 checkpoints/
-*.ckpt
-
 DualFreqDatasets/
+models/
+
+*.ckpt
+*.pt
+*.pth
