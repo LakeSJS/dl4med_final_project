@@ -1,0 +1,1348 @@
+
+Terminal command to create your ssh tunnel
+ssh -N -L 8825:a100-4027:8825 slj9342@bigpurple.nyumc.org
+Windows MobaXterm info
+Forwarded port:same as remote port
+Remote server: a100-4027
+Remote port: 8825
+SSH server: bigpurple.nyumc.org
+SSH login: slj9342
+SSH port: 22
+Use a Browser on your local machine to go to:
+localhost:8825/lab?token=  (prefix w/ https:// if using password)
+
+[I 2025-04-29 16:55:54.208 ServerApp] Extension package jupyter_lsp took 0.2507s to import
+[I 2025-04-29 16:55:54.701 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-04-29 16:55:54.704 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-04-29 16:55:54.708 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-04-29 16:55:54.712 ServerApp] notebook | extension was successfully linked.
+[I 2025-04-29 16:55:58.391 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-04-29 16:55:58.533 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-04-29 16:55:58.535 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-04-29 16:55:58.536 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-04-29 16:55:58.543 LabApp] JupyterLab extension loaded from /gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyterlab
+[I 2025-04-29 16:55:58.543 LabApp] JupyterLab application directory is /gpfs/data/oermannlab/users/slj9342/.local/share/jupyter/lab
+[I 2025-04-29 16:55:58.543 LabApp] Extension Manager is 'pypi'.
+[I 2025-04-29 16:55:58.934 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-04-29 16:55:58.937 ServerApp] notebook | extension was successfully loaded.
+[I 2025-04-29 16:55:58.937 ServerApp] Serving notebooks from local directory: /gpfs/data/oermannlab/users/slj9342/dl4med_final_project
+[I 2025-04-29 16:55:58.937 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2025-04-29 16:55:58.937 ServerApp] http://a100-4027:8825/tree?token=460567f81ab7a711ca35b7260a1444f0e5ff07f1645076b1
+[I 2025-04-29 16:55:58.937 ServerApp]     http://127.0.0.1:8825/tree?token=460567f81ab7a711ca35b7260a1444f0e5ff07f1645076b1
+[I 2025-04-29 16:55:58.937 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2025-04-29 16:55:59.111 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///gpfs/data/oermannlab/users/slj9342/.local/share/jupyter/runtime/jpserver-1429879-open.html
+    Or copy and paste one of these URLs:
+        http://a100-4027:8825/tree?token=460567f81ab7a711ca35b7260a1444f0e5ff07f1645076b1
+        http://127.0.0.1:8825/tree?token=460567f81ab7a711ca35b7260a1444f0e5ff07f1645076b1
+[I 2025-04-29 16:55:59.146 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2025-04-29 16:56:37.788 ServerApp] 404 GET /hub/api (@192.168.0.104) 80.09ms referer=None
+[I 2025-04-29 16:56:37.791 ServerApp] 302 GET / (@192.168.0.104) 0.27ms
+[I 2025-04-29 16:56:37.793 JupyterNotebookApp] 302 GET /tree? (@192.168.0.104) 0.33ms
+[I 2025-04-29 16:56:51.120 ServerApp] User 2dae3af8af294b2997ae9b76b87b7a61 logged in.
+[I 2025-04-29 16:56:51.122 ServerApp] 302 POST /login? (2dae3af8af294b2997ae9b76b87b7a61@192.168.0.104) 2.17ms
+[I 2025-04-29 16:56:57.910 ServerApp] Kernel started: e999a845-6ab8-472b-9dc6-f0038aa3873d
+[I 2025-04-29 16:57:08.313 ServerApp] Connecting to kernel e999a845-6ab8-472b-9dc6-f0038aa3873d.
+[I 2025-04-29 17:09:08.802 ServerApp] Kernel interrupted: e999a845-6ab8-472b-9dc6-f0038aa3873d
+[I 2025-04-29 17:14:16.654 ServerApp] Kernel interrupted: e999a845-6ab8-472b-9dc6-f0038aa3873d
+[I 2025-04-29 17:20:39.259 ServerApp] Kernel interrupted: e999a845-6ab8-472b-9dc6-f0038aa3873d
+[I 2025-04-29 18:35:37.114 ServerApp] Kernel interrupted: e999a845-6ab8-472b-9dc6-f0038aa3873d
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mbest-params-0[0m at: [34mhttps://wandb.ai/lakej98-nyu-langone-health/LSTM-Sleep-Stager/runs/fc8y1gpr[0m
+[I 2025-04-29 19:09:41.903 ServerApp] Kernel restarted: e999a845-6ab8-472b-9dc6-f0038aa3873d
+[I 2025-04-29 19:09:41.935 ServerApp] Starting buffering for e999a845-6ab8-472b-9dc6-f0038aa3873d:badd2bfb-3c7a-4326-9984-1af8dbf0a462
+[I 2025-04-29 19:09:41.941 ServerApp] Connecting to kernel e999a845-6ab8-472b-9dc6-f0038aa3873d.
+[I 2025-04-29 19:09:41.941 ServerApp] Restoring connection for e999a845-6ab8-472b-9dc6-f0038aa3873d:badd2bfb-3c7a-4326-9984-1af8dbf0a462
+[W 2025-04-29 19:09:46.452 ServerApp] Nudge: attempt 10 on kernel e999a845-6ab8-472b-9dc6-f0038aa3873d
+[W 2025-04-29 19:09:51.463 ServerApp] Nudge: attempt 20 on kernel e999a845-6ab8-472b-9dc6-f0038aa3873d
+[I 2025-04-29 21:00:12.170 ServerApp] 302 GET / (@192.168.0.103) 0.38ms
+[I 2025-04-29 21:00:12.978 JupyterNotebookApp] 302 GET /tree? (@192.168.0.103) 0.56ms
+[W 2025-04-29 21:00:49.896 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 21:00:49.928 ServerApp] 403 GET /api/kernelspecs?1745974849890 (@192.168.0.103) 33.14ms referer=None
+[W 2025-04-29 21:00:49.929 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 21:00:49.929 ServerApp] 403 GET /api/kernels?1745974849891 (@192.168.0.103) 33.45ms referer=None
+[W 2025-04-29 21:00:49.929 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 21:00:49.930 ServerApp] 403 GET /api/kernels?1745974849892 (@192.168.0.103) 33.74ms referer=None
+[W 2025-04-29 21:00:49.930 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 21:00:49.931 ServerApp] 403 GET /api/sessions?1745974849893 (@192.168.0.103) 34.61ms referer=None
+[W 2025-04-29 21:00:49.935 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 21:00:49.936 ServerApp] 403 GET /api/kernelspecs?1745974849931 (@192.168.0.103) 0.76ms referer=None
+[I 2025-04-29 21:00:49.936 ServerApp] 302 GET / (@192.168.0.103) 0.67ms
+[I 2025-04-29 21:00:49.942 JupyterNotebookApp] 302 GET /tree? (@192.168.0.103) 0.26ms
+[W 2025-04-29 21:00:51.356 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 21:00:51.356 ServerApp] 403 GET /api/kernelspecs?1745974851353 (@192.168.0.103) 0.84ms referer=None
+[W 2025-04-29 21:00:51.358 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 21:00:51.359 ServerApp] 403 GET /api/kernels?1745974851353 (@192.168.0.103) 0.51ms referer=None
+[W 2025-04-29 21:00:51.359 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 21:00:51.359 ServerApp] 403 GET /api/kernels?1745974851355 (@192.168.0.103) 0.46ms referer=None
+[W 2025-04-29 21:00:51.360 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 21:00:51.360 ServerApp] 403 GET /api/sessions?1745974851356 (@192.168.0.103) 0.51ms referer=None
+[W 2025-04-29 21:00:51.362 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 21:00:51.363 ServerApp] 403 GET /api/kernelspecs?1745974851359 (@192.168.0.103) 0.47ms referer=None
+[W 2025-04-29 21:06:47.594 ServerApp] 404 GET /hub/api (@192.168.0.103) 2.06ms referer=None
+[I 2025-04-29 21:06:47.597 ServerApp] 302 GET / (@192.168.0.103) 0.27ms
+[I 2025-04-29 21:06:47.598 JupyterNotebookApp] 302 GET /tree? (@192.168.0.103) 0.33ms
+[I 2025-04-29 21:06:56.305 ServerApp] User 4e19200e14c149f0afccdf4a48e7d6dc logged in.
+[I 2025-04-29 21:06:56.307 ServerApp] 302 POST /login? (4e19200e14c149f0afccdf4a48e7d6dc@192.168.0.103) 2.50ms
+[I 2025-04-29 21:07:12.160 ServerApp] Kernel started: 43c9baf9-983e-496e-9d90-7c645f9f4875
+[I 2025-04-29 21:07:22.211 ServerApp] Connecting to kernel 43c9baf9-983e-496e-9d90-7c645f9f4875.
+[I 2025-04-29 21:07:22.682 ServerApp] 302 GET / (@192.168.0.103) 2.98ms
+[I 2025-04-29 21:07:22.726 JupyterNotebookApp] 302 GET /tree? (@192.168.0.103) 0.37ms
+[I 2025-04-29 21:07:36.651 ServerApp] User d4c03641ff3643c793bd3f588035c2b9 logged in.
+[I 2025-04-29 21:07:36.651 ServerApp] 302 POST /login? (d4c03641ff3643c793bd3f588035c2b9@192.168.0.103) 0.71ms
+[I 2025-04-29 22:14:03.508 ServerApp] 302 GET / (@192.168.0.102) 0.40ms
+[I 2025-04-29 22:14:03.509 ServerApp] 302 GET / (@192.168.0.102) 0.31ms
+[I 2025-04-29 22:14:03.682 JupyterNotebookApp] 302 GET /tree? (@192.168.0.102) 0.64ms
+[I 2025-04-29 22:14:03.683 JupyterNotebookApp] 302 GET /tree? (@192.168.0.102) 0.76ms
+[W 2025-04-29 22:14:05.044 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:05.087 ServerApp] 403 GET /api/kernelspecs?1745979245038 (@192.168.0.102) 43.24ms referer=None
+[W 2025-04-29 22:14:05.087 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:05.088 ServerApp] 403 GET /api/kernels?1745979245039 (@192.168.0.102) 43.63ms referer=None
+[W 2025-04-29 22:14:05.177 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:05.192 ServerApp] 403 GET /api/kernelspecs?1745979245041 (@192.168.0.102) 16.49ms referer=None
+[W 2025-04-29 22:14:05.193 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:05.193 ServerApp] 403 GET /api/kernels?1745979245043 (@192.168.0.102) 16.96ms referer=None
+[W 2025-04-29 22:14:05.193 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:05.194 ServerApp] 403 GET /api/kernels?1745979245041 (@192.168.0.102) 17.31ms referer=None
+[W 2025-04-29 22:14:05.194 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:05.194 ServerApp] 403 GET /api/sessions?1745979245044 (@192.168.0.102) 17.65ms referer=None
+[W 2025-04-29 22:14:05.194 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:05.194 ServerApp] 403 GET /api/kernels?1745979245045 (@192.168.0.102) 17.95ms referer=None
+[W 2025-04-29 22:14:05.195 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:05.206 ServerApp] 403 GET /api/sessions?1745979245046 (@192.168.0.102) 29.20ms referer=None
+[W 2025-04-29 22:14:05.215 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:05.215 ServerApp] 403 GET /api/kernelspecs?1745979245171 (@192.168.0.102) 0.74ms referer=None
+[I 2025-04-29 22:14:05.259 ServerApp] 302 GET / (@192.168.0.102) 0.45ms
+[W 2025-04-29 22:14:05.259 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:05.260 ServerApp] 403 GET /api/kernelspecs?1745979245213 (@192.168.0.102) 0.89ms referer=None
+[I 2025-04-29 22:14:05.306 JupyterNotebookApp] 302 GET /tree? (@192.168.0.102) 0.41ms
+[W 2025-04-29 22:14:05.769 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:05.769 ServerApp] 403 GET /api/kernelspecs?1745979245760 (@192.168.0.102) 0.82ms referer=None
+[W 2025-04-29 22:14:05.841 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:05.842 ServerApp] 403 GET /api/kernels?1745979245761 (@192.168.0.102) 1.86ms referer=None
+[W 2025-04-29 22:14:05.842 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:05.853 ServerApp] 403 GET /api/kernels?1745979245764 (@192.168.0.102) 12.51ms referer=None
+[W 2025-04-29 22:14:05.853 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:05.853 ServerApp] 403 GET /api/kernelspecs?1745979245764 (@192.168.0.102) 12.90ms referer=None
+[W 2025-04-29 22:14:05.853 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:05.854 ServerApp] 403 GET /api/kernelspecs?1745979245766 (@192.168.0.102) 13.21ms referer=None
+[W 2025-04-29 22:14:05.854 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:05.854 ServerApp] 403 GET /api/kernels?1745979245767 (@192.168.0.102) 13.48ms referer=None
+[W 2025-04-29 22:14:05.854 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:05.854 ServerApp] 403 GET /api/kernels?1745979245771 (@192.168.0.102) 13.75ms referer=None
+[W 2025-04-29 22:14:05.855 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:05.855 ServerApp] 403 GET /api/sessions?1745979245772 (@192.168.0.102) 14.02ms referer=None
+[W 2025-04-29 22:14:05.855 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:05.873 ServerApp] 403 GET /api/kernels?1745979245773 (@192.168.0.102) 32.19ms referer=None
+[W 2025-04-29 22:14:05.874 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:05.874 ServerApp] 403 GET /api/sessions?1745979245774 (@192.168.0.102) 0.89ms referer=None
+[W 2025-04-29 22:14:05.874 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:05.875 ServerApp] 403 GET /api/kernels?1745979245774 (@192.168.0.102) 1.09ms referer=None
+[W 2025-04-29 22:14:05.875 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:05.875 ServerApp] 403 GET /api/sessions?1745979245776 (@192.168.0.102) 1.36ms referer=None
+[W 2025-04-29 22:14:05.996 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:05.997 ServerApp] 403 GET /api/kernelspecs?1745979245793 (@192.168.0.102) 0.64ms referer=None
+[I 2025-04-29 22:14:06.265 ServerApp] 302 GET / (@192.168.0.102) 0.34ms
+[I 2025-04-29 22:14:06.322 JupyterNotebookApp] 302 GET /tree? (@192.168.0.102) 0.45ms
+[W 2025-04-29 22:14:06.442 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:06.453 ServerApp] 403 GET /api/kernelspecs?1745979246437 (@192.168.0.102) 11.08ms referer=None
+[W 2025-04-29 22:14:06.567 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:06.568 ServerApp] 403 GET /api/kernels?1745979246438 (@192.168.0.102) 1.58ms referer=None
+[W 2025-04-29 22:14:06.568 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:06.568 ServerApp] 403 GET /api/kernelspecs?1745979246438 (@192.168.0.102) 1.86ms referer=None
+[W 2025-04-29 22:14:06.568 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:06.568 ServerApp] 403 GET /api/kernels?1745979246439 (@192.168.0.102) 2.15ms referer=None
+[W 2025-04-29 22:14:06.569 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:06.569 ServerApp] 403 GET /api/kernels?1745979246447 (@192.168.0.102) 2.46ms referer=None
+[W 2025-04-29 22:14:06.569 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:06.577 ServerApp] 403 GET /api/sessions?1745979246448 (@192.168.0.102) 10.60ms referer=None
+[W 2025-04-29 22:14:06.577 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:06.578 ServerApp] 403 GET /api/kernels?1745979246448 (@192.168.0.102) 10.92ms referer=None
+[W 2025-04-29 22:14:06.578 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:06.578 ServerApp] 403 GET /api/sessions?1745979246449 (@192.168.0.102) 11.21ms referer=None
+[W 2025-04-29 22:14:06.914 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:06.915 ServerApp] 403 GET /api/kernelspecs?1745979246578 (@192.168.0.102) 0.91ms referer=None
+[W 2025-04-29 22:14:07.064 ServerApp] 401 POST /login? (@192.168.0.102) 0.98ms referer=None
+[W 2025-04-29 22:14:07.089 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:07.090 ServerApp] 403 GET /api/kernelspecs?1745979247082 (@192.168.0.102) 0.86ms referer=None
+[W 2025-04-29 22:14:07.137 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:07.148 ServerApp] 403 GET /api/kernels?1745979247083 (@192.168.0.102) 11.70ms referer=None
+[W 2025-04-29 22:14:07.148 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:07.148 ServerApp] 403 GET /api/kernelspecs?1745979247083 (@192.168.0.102) 12.10ms referer=None
+[W 2025-04-29 22:14:07.149 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:07.149 ServerApp] 403 GET /api/kernels?1745979247084 (@192.168.0.102) 12.44ms referer=None
+[W 2025-04-29 22:14:07.149 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:07.149 ServerApp] 403 GET /api/kernels?1745979247102 (@192.168.0.102) 12.73ms referer=None
+[W 2025-04-29 22:14:07.150 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:07.150 ServerApp] 403 GET /api/sessions?1745979247103 (@192.168.0.102) 13.06ms referer=None
+[W 2025-04-29 22:14:07.150 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:07.155 ServerApp] 403 GET /api/kernels?1745979247104 (@192.168.0.102) 17.93ms referer=None
+[W 2025-04-29 22:14:07.155 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:07.155 ServerApp] 403 GET /api/sessions?1745979247106 (@192.168.0.102) 18.25ms referer=None
+[W 2025-04-29 22:14:07.224 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:07.225 ServerApp] 403 GET /api/kernelspecs?1745979247128 (@192.168.0.102) 0.87ms referer=None
+[I 2025-04-29 22:14:14.443 ServerApp] 302 GET / (@192.168.0.102) 0.34ms
+[I 2025-04-29 22:14:14.455 JupyterNotebookApp] 302 GET /tree? (@192.168.0.102) 0.44ms
+[W 2025-04-29 22:14:14.511 ServerApp] 401 POST /login? (@192.168.0.102) 0.87ms referer=None
+[W 2025-04-29 22:14:14.523 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:14.523 ServerApp] 403 GET /api/kernels?1745979254514 (@192.168.0.102) 1.28ms referer=None
+[W 2025-04-29 22:14:14.523 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:14.524 ServerApp] 403 GET /api/kernels?1745979254515 (@192.168.0.102) 1.49ms referer=None
+[W 2025-04-29 22:14:14.524 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:14.533 ServerApp] 403 GET /api/sessions?1745979254516 (@192.168.0.102) 10.33ms referer=None
+[W 2025-04-29 22:14:14.533 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:14:14.533 ServerApp] 403 GET /api/kernelspecs?1745979254513 (@192.168.0.102) 10.63ms referer=None
+[I 2025-04-29 22:14:58.868 ServerApp] 302 GET / (@192.168.0.102) 0.36ms
+[I 2025-04-29 22:14:58.880 JupyterNotebookApp] 302 GET /tree? (@192.168.0.102) 0.44ms
+[W 2025-04-29 22:17:45.627 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:17:45.637 ServerApp] 403 GET /api/kernelspecs?1745979465614 (@192.168.0.102) 11.38ms referer=None
+[W 2025-04-29 22:17:45.638 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:17:45.638 ServerApp] 403 GET /api/kernels?1745979465615 (@192.168.0.102) 11.82ms referer=None
+[W 2025-04-29 22:17:45.638 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:17:45.638 ServerApp] 403 GET /api/kernels?1745979465617 (@192.168.0.102) 12.17ms referer=None
+[W 2025-04-29 22:17:45.639 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:17:45.643 ServerApp] 403 GET /api/sessions?1745979465618 (@192.168.0.102) 16.27ms referer=None
+[W 2025-04-29 22:17:45.643 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:17:45.644 ServerApp] 403 GET /api/kernelspecs?1745979465641 (@192.168.0.102) 0.60ms referer=None
+[I 2025-04-29 22:19:59.056 ServerApp] 302 GET / (@192.168.0.102) 0.37ms
+[I 2025-04-29 22:19:59.078 JupyterNotebookApp] 302 GET /tree? (@192.168.0.102) 0.46ms
+[W 2025-04-29 22:20:18.440 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:20:18.449 ServerApp] 403 GET /api/kernels?1745979618425 (@192.168.0.102) 9.78ms referer=None
+[W 2025-04-29 22:20:18.449 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:20:18.449 ServerApp] 403 GET /api/kernelspecs?1745979618424 (@192.168.0.102) 10.04ms referer=None
+[W 2025-04-29 22:20:18.450 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:20:18.450 ServerApp] 403 GET /api/kernels?1745979618428 (@192.168.0.102) 10.27ms referer=None
+[W 2025-04-29 22:20:18.450 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:20:18.461 ServerApp] 403 GET /api/sessions?1745979618428 (@192.168.0.102) 20.89ms referer=None
+[W 2025-04-29 22:20:18.461 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:20:18.462 ServerApp] 403 GET /api/kernelspecs?1745979618453 (@192.168.0.102) 0.59ms referer=None
+[I 2025-04-29 22:24:59.401 ServerApp] 302 GET / (@192.168.0.102) 0.34ms
+[I 2025-04-29 22:24:59.412 JupyterNotebookApp] 302 GET /tree? (@192.168.0.102) 0.42ms
+[I 2025-04-29 22:29:44.039 ServerApp] 302 GET / (@192.168.0.102) 0.42ms
+[I 2025-04-29 22:29:44.099 ServerApp] 302 GET / (@192.168.0.102) 0.42ms
+[I 2025-04-29 22:29:45.091 JupyterNotebookApp] 302 GET /tree? (@192.168.0.102) 0.78ms
+[I 2025-04-29 22:29:45.091 JupyterNotebookApp] 302 GET /tree? (@192.168.0.102) 0.95ms
+[W 2025-04-29 22:29:45.870 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:29:45.870 ServerApp] 403 GET /api/kernelspecs?1745980185865 (@192.168.0.102) 1.45ms referer=None
+[W 2025-04-29 22:29:45.871 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:29:45.871 ServerApp] 403 GET /api/kernels?1745980185866 (@192.168.0.102) 1.71ms referer=None
+[W 2025-04-29 22:29:45.905 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:29:45.905 ServerApp] 403 GET /api/kernelspecs?1745980185882 (@192.168.0.102) 1.19ms referer=None
+[W 2025-04-29 22:29:45.906 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:29:45.926 ServerApp] 403 GET /api/kernels?1745980185869 (@192.168.0.102) 20.53ms referer=None
+[W 2025-04-29 22:29:45.926 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:29:45.927 ServerApp] 403 GET /api/sessions?1745980185870 (@192.168.0.102) 21.14ms referer=None
+[I 2025-04-29 22:29:45.949 ServerApp] 302 GET / (@192.168.0.102) 0.42ms
+[I 2025-04-29 22:29:45.961 JupyterNotebookApp] 302 GET /tree? (@192.168.0.102) 0.51ms
+[W 2025-04-29 22:29:46.195 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:29:46.195 ServerApp] 403 GET /api/kernelspecs?1745980186183 (@192.168.0.102) 0.98ms referer=None
+[W 2025-04-29 22:29:46.373 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:29:46.373 ServerApp] 403 GET /api/kernels?1745980186183 (@192.168.0.102) 1.33ms referer=None
+[W 2025-04-29 22:29:46.373 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:29:46.374 ServerApp] 403 GET /api/kernels?1745980186188 (@192.168.0.102) 1.59ms referer=None
+[W 2025-04-29 22:29:46.374 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:29:46.381 ServerApp] 403 GET /api/sessions?1745980186189 (@192.168.0.102) 8.59ms referer=None
+[W 2025-04-29 22:29:47.005 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:29:47.006 ServerApp] 403 GET /api/kernelspecs?1745980186413 (@192.168.0.102) 1.09ms referer=None
+[I 2025-04-29 22:29:47.019 ServerApp] 302 GET / (@192.168.0.102) 0.52ms
+[I 2025-04-29 22:29:47.130 JupyterNotebookApp] 302 GET /tree? (@192.168.0.102) 0.56ms
+[W 2025-04-29 22:29:48.048 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:29:48.049 ServerApp] 403 GET /api/kernelspecs?1745980187962 (@192.168.0.102) 1.16ms referer=None
+[W 2025-04-29 22:29:48.095 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:29:48.096 ServerApp] 403 GET /api/kernelspecs?1745980188090 (@192.168.0.102) 1.51ms referer=None
+[W 2025-04-29 22:29:48.096 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:29:48.096 ServerApp] 403 GET /api/kernels?1745980187963 (@192.168.0.102) 1.78ms referer=None
+[W 2025-04-29 22:29:48.096 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:29:48.106 ServerApp] 403 GET /api/kernels?1745980188054 (@192.168.0.102) 11.44ms referer=None
+[W 2025-04-29 22:29:48.106 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:29:48.107 ServerApp] 403 GET /api/sessions?1745980188055 (@192.168.0.102) 12.14ms referer=None
+[W 2025-04-29 22:30:03.285 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:30:03.286 ServerApp] 403 GET /api/kernelspecs?1745980203279 (@192.168.0.102) 1.65ms referer=None
+[W 2025-04-29 22:30:03.286 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:30:03.286 ServerApp] 403 GET /api/kernels?1745980203280 (@192.168.0.102) 1.83ms referer=None
+[W 2025-04-29 22:30:03.287 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:30:03.287 ServerApp] 403 GET /api/kernels?1745980203281 (@192.168.0.102) 2.06ms referer=None
+[W 2025-04-29 22:30:03.287 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:30:03.298 ServerApp] 403 GET /api/sessions?1745980203282 (@192.168.0.102) 13.01ms referer=None
+[W 2025-04-29 22:30:03.299 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:30:03.300 ServerApp] 403 GET /api/kernelspecs?1745980203288 (@192.168.0.102) 0.90ms referer=None
+[I 2025-04-29 22:46:28.893 ServerApp] 302 GET / (@192.168.0.103) 0.66ms
+[I 2025-04-29 22:46:28.895 ServerApp] 302 GET / (@192.168.0.103) 2.34ms
+[I 2025-04-29 22:46:29.065 JupyterNotebookApp] 302 GET /tree? (@192.168.0.103) 0.72ms
+[I 2025-04-29 22:46:29.065 JupyterNotebookApp] 302 GET /tree? (@192.168.0.103) 0.88ms
+[W 2025-04-29 22:46:29.304 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:46:29.346 ServerApp] 403 GET /api/kernels?1745981189292 (@192.168.0.103) 43.06ms referer=None
+[W 2025-04-29 22:46:29.347 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:46:29.347 ServerApp] 403 GET /api/sessions?1745981189293 (@192.168.0.103) 43.43ms referer=None
+[W 2025-04-29 22:46:29.347 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:46:29.347 ServerApp] 403 GET /api/kernelspecs?1745981189290 (@192.168.0.103) 43.74ms referer=None
+[W 2025-04-29 22:46:29.348 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:46:29.361 ServerApp] 403 GET /api/kernels?1745981189291 (@192.168.0.103) 57.15ms referer=None
+[W 2025-04-29 22:46:29.362 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:46:29.363 ServerApp] 403 GET /api/kernelspecs?1745981189348 (@192.168.0.103) 1.02ms referer=None
+[W 2025-04-29 22:46:29.363 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:46:29.363 ServerApp] 403 GET /api/sessions?1745981189349 (@192.168.0.103) 1.19ms referer=None
+[I 2025-04-29 22:46:29.378 ServerApp] 302 GET / (@192.168.0.103) 0.37ms
+[I 2025-04-29 22:46:29.390 JupyterNotebookApp] 302 GET /tree? (@192.168.0.103) 0.46ms
+[W 2025-04-29 22:46:29.460 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:46:29.461 ServerApp] 403 GET /api/kernelspecs?1745981189417 (@192.168.0.103) 0.98ms referer=None
+[W 2025-04-29 22:46:29.462 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:46:29.462 ServerApp] 403 GET /api/kernels?1745981189457 (@192.168.0.103) 1.06ms referer=None
+[W 2025-04-29 22:46:29.462 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:46:29.474 ServerApp] 403 GET /api/kernels?1745981189459 (@192.168.0.103) 12.43ms referer=None
+[W 2025-04-29 22:46:29.474 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:46:29.475 ServerApp] 403 GET /api/sessions?1745981189460 (@192.168.0.103) 12.97ms referer=None
+[W 2025-04-29 22:46:29.475 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:46:29.476 ServerApp] 403 GET /api/kernelspecs?1745981189464 (@192.168.0.103) 0.63ms referer=None
+[I 2025-04-29 22:46:29.484 ServerApp] 302 GET / (@192.168.0.103) 0.33ms
+[I 2025-04-29 22:46:29.495 JupyterNotebookApp] 302 GET /tree? (@192.168.0.103) 0.45ms
+[W 2025-04-29 22:46:29.605 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:46:29.606 ServerApp] 403 GET /api/kernels?1745981189599 (@192.168.0.103) 1.59ms referer=None
+[W 2025-04-29 22:46:29.606 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:46:29.606 ServerApp] 403 GET /api/kernels?1745981189601 (@192.168.0.103) 1.78ms referer=None
+[W 2025-04-29 22:46:29.606 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:46:29.613 ServerApp] 403 GET /api/sessions?1745981189601 (@192.168.0.103) 8.31ms referer=None
+[W 2025-04-29 22:46:29.613 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:46:29.614 ServerApp] 403 GET /api/kernelspecs?1745981189599 (@192.168.0.103) 8.83ms referer=None
+[W 2025-04-29 22:46:32.103 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:46:32.104 ServerApp] 403 GET /api/kernels?1745981192098 (@192.168.0.103) 1.61ms referer=None
+[W 2025-04-29 22:46:32.104 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:46:32.104 ServerApp] 403 GET /api/kernelspecs?1745981192097 (@192.168.0.103) 1.81ms referer=None
+[W 2025-04-29 22:46:32.104 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:46:32.105 ServerApp] 403 GET /api/sessions?1745981192100 (@192.168.0.103) 2.03ms referer=None
+[W 2025-04-29 22:46:32.105 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:46:32.105 ServerApp] 403 GET /api/kernels?1745981192099 (@192.168.0.103) 2.24ms referer=None
+[W 2025-04-29 22:46:32.116 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:46:32.124 ServerApp] 403 GET /api/kernelspecs?1745981192105 (@192.168.0.103) 7.91ms referer=None
+[I 2025-04-29 22:47:02.498 ServerApp] 302 GET / (@192.168.0.103) 0.55ms
+[I 2025-04-29 22:47:02.499 ServerApp] 302 GET / (@192.168.0.103) 0.63ms
+[I 2025-04-29 22:47:02.784 JupyterNotebookApp] 302 GET /tree? (@192.168.0.103) 0.64ms
+[I 2025-04-29 22:47:02.785 JupyterNotebookApp] 302 GET /tree? (@192.168.0.103) 0.78ms
+[W 2025-04-29 22:47:03.692 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:47:03.693 ServerApp] 403 GET /api/kernelspecs?1745981223579 (@192.168.0.103) 1.13ms referer=None
+[W 2025-04-29 22:47:03.693 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:47:03.694 ServerApp] 403 GET /api/kernels?1745981223579 (@192.168.0.103) 1.42ms referer=None
+[W 2025-04-29 22:47:03.771 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:47:03.772 ServerApp] 403 GET /api/kernels?1745981223689 (@192.168.0.103) 1.11ms referer=None
+[W 2025-04-29 22:47:03.772 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:47:03.772 ServerApp] 403 GET /api/sessions?1745981223690 (@192.168.0.103) 1.41ms referer=None
+[W 2025-04-29 22:47:03.795 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:47:03.796 ServerApp] 403 GET /api/kernelspecs?1745981223764 (@192.168.0.103) 0.97ms referer=None
+[I 2025-04-29 22:47:04.109 ServerApp] 302 GET / (@192.168.0.103) 0.37ms
+[I 2025-04-29 22:47:04.165 JupyterNotebookApp] 302 GET /tree? (@192.168.0.103) 0.47ms
+[W 2025-04-29 22:47:04.619 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:47:04.620 ServerApp] 403 GET /api/kernels?1745981224574 (@192.168.0.103) 1.35ms referer=None
+[W 2025-04-29 22:47:04.620 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:47:04.620 ServerApp] 403 GET /api/kernels?1745981224591 (@192.168.0.103) 1.56ms referer=None
+[W 2025-04-29 22:47:04.621 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:47:04.621 ServerApp] 403 GET /api/sessions?1745981224592 (@192.168.0.103) 1.82ms referer=None
+[W 2025-04-29 22:47:04.621 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:47:04.621 ServerApp] 403 GET /api/kernelspecs?1745981224573 (@192.168.0.103) 2.09ms referer=None
+[I 2025-04-29 22:47:04.765 ServerApp] 302 GET / (@192.168.0.103) 0.36ms
+[I 2025-04-29 22:47:04.779 JupyterNotebookApp] 302 GET /tree? (@192.168.0.103) 0.50ms
+[W 2025-04-29 22:47:04.891 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:47:04.892 ServerApp] 403 GET /api/kernelspecs?1745981224887 (@192.168.0.103) 1.05ms referer=None
+[W 2025-04-29 22:47:04.908 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:47:04.909 ServerApp] 403 GET /api/kernels?1745981224888 (@192.168.0.103) 1.24ms referer=None
+[W 2025-04-29 22:47:04.909 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:47:04.909 ServerApp] 403 GET /api/kernels?1745981224890 (@192.168.0.103) 1.53ms referer=None
+[W 2025-04-29 22:47:04.909 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:47:04.910 ServerApp] 403 GET /api/sessions?1745981224891 (@192.168.0.103) 1.84ms referer=None
+[W 2025-04-29 22:47:04.982 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:47:04.983 ServerApp] 403 GET /api/kernelspecs?1745981224913 (@192.168.0.103) 0.99ms referer=None
+[W 2025-04-29 22:47:24.892 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:47:24.898 ServerApp] 403 GET /api/kernelspecs?1745981244877 (@192.168.0.103) 6.37ms referer=None
+[W 2025-04-29 22:47:24.898 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:47:24.899 ServerApp] 403 GET /api/kernels?1745981244879 (@192.168.0.103) 6.84ms referer=None
+[W 2025-04-29 22:47:24.899 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:47:24.899 ServerApp] 403 GET /api/kernels?1745981244881 (@192.168.0.103) 7.21ms referer=None
+[W 2025-04-29 22:47:24.899 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/gpfs/data/oermannlab/users/slj9342/.local/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-04-29 22:47:24.900 ServerApp] 403 GET /api/sessions?1745981244882 (@192.168.0.103) 7.55ms referer=None
+[I 2025-04-29 22:47:33.290 ServerApp] Starting buffering for 43c9baf9-983e-496e-9d90-7c645f9f4875:1c0bc8c6-3089-4e60-ba23-69f00b0bd50a
+slurmstepd-a100-4027: error: *** JOB 63444252 ON a100-4027 CANCELLED AT 2025-04-29T23:00:53 ***
