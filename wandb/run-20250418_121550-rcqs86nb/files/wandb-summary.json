@@ -1,1 +1,0 @@
-{"_wandb":{"runtime":298},"epoch":3,"trainer/global_step":11,"val_acc":0.19435472786426544,"_runtime":298.357960732,"val_cohen_kappa":0,"_timestamp":1.7449932488654118e+09,"train_loss_epoch":1.6073102951049805,"val_loss":1.5742467641830444,"train_loss_step":1.6118733882904053,"_step":13}

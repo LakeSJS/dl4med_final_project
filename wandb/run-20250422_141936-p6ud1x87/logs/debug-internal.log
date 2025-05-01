@@ -1,9 +1,0 @@
-{"time":"2025-04-22T14:19:36.940981593-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"wandb/run-20250422_141936-p6ud1x87/logs/debug-core.log"}
-{"time":"2025-04-22T14:19:37.075645808-04:00","level":"INFO","msg":"created new stream","id":"p6ud1x87"}
-{"time":"2025-04-22T14:19:37.075683191-04:00","level":"INFO","msg":"stream: started","id":"p6ud1x87"}
-{"time":"2025-04-22T14:19:37.076132146-04:00","level":"INFO","msg":"handler: started","stream_id":"p6ud1x87"}
-{"time":"2025-04-22T14:19:37.076160099-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"p6ud1x87"}
-{"time":"2025-04-22T14:19:37.07738325-04:00","level":"INFO","msg":"sender: started","stream_id":"p6ud1x87"}
-{"time":"2025-04-22T14:19:37.39387002-04:00","level":"INFO","msg":"Starting system monitor"}
-{"time":"2025-04-22T16:32:07.933910582-04:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/lakej98-nyu-langone-health/mixed_freq_cnn_transformer/p6ud1x87/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
-{"time":"2025-04-22T17:02:22.511852641-04:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/lakej98-nyu-langone-health/mixed_freq_cnn_transformer/p6ud1x87/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
