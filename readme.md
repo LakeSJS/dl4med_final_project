@@ -1,5 +1,5 @@
 # Deep Learning in Medicine - Group 6 Final Project
-# Sleep Staging
+#  Combining Mixed–Frequency Wearable Signals for Automatic Sleep Staging
 
 This repository contains all code used in our project. All experiments were run on NVIDIA A100 GPUs with PyTorch 2.0 
 
