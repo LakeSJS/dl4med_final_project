@@ -1,7 +1,7 @@
 # Deep Learning in Medicine - Group 6 Final Project
 # Sleep Staging
 
-This repository contains all code used in our project
+This repository contains all code used in our project. All experiments were run on NVIDIA A100 GPUs with PyTorch 2.0 
 
 ## Project Structure
 
@@ -29,3 +29,10 @@ dl4med_final_project/
 │   └── sleep_datasets.py                 — Dataset loaders for experiments  
 └── README.md                             — This file  
 ```
+## Contact Information
+| Name                   | Institutional Affiliation       | Email             |
+| ---------------------- | ------------------------------- | ----------------- |
+| **Mariam Abdullah**    | NYU Center for Data Science     | `ma3259@nyu.edu`  |
+| **Tanvi Bansal**       | NYU Center for Data Science     | `tb3168@nyu.edu`  |
+| **Natasha Recoder**    | NYU Center for Data Science     | `npr264@nyu.edu`  |
+| **Lake Jacobs‑Skolik** | NYU Grossman School of Medicine | `slj9342@nyu.edu` |
